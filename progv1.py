@@ -18,7 +18,7 @@ data =[[    48.8514,    2.2886,   1900.    ],
        [    48.8514,    2.2886,   5750.    ],
        [    48.8514,    2.2886,   3595.    ]]
 
-m = folium.Map([48.8514, 2.2886], 
+m = folium.Map([48.8514, 2.2887],
                control_scale = True, zoom_start=11)
 
 plugins.HeatMap(data, radius = 20, min_opacity = 0.1, max_val = 50,gradient={.6: 'yellow', .98: 'orange', 1: 'red'}).add_to(m)
