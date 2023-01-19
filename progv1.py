@@ -20,6 +20,6 @@ dataset= pd.DataFrame({'latitude':df['latitude'],'longitude':df['longitude'],'in
 m = folium.Map([45.6754, 0.24273],control_scale = True, zoom_start=11)
 
 heat_data = [[row['latitude'],row['longitude']] for index, row in dataset.iterrows()]
-HeatMap(heat_data, radius = 20, min_opacity = 0.1,gradient={.6: 'yellow', .98: 'orange', 1: 'red'}).add_to(m)
+HeatMap(heat_data, radius = 20, min_opacity = 0.9,gradient={.6: 'yellow', .98: 'orange', 1: 'red'}).add_to(m)
 
 m.save('maCarte1.html')
