@@ -5,27 +5,23 @@ Created on Thu Jan 12 15:03:16 2023
 @author: orlan
 """
 
-import folium 
+import folium
+import numpy as np
 from folium import plugins
-
+import pandas as pd
+import requests
 import json
-
 
 x = '[{"latitude":43.41800914565575,"longitude":-1.4736806863206051,"town":"Ustaritz","postcode":"64480","epci":"CA du Pays Basque","county":"Pyrénées-Atlantiques","images":["https://api.v2.clean2gether.com/uploads/c2g_upload_ee31b829ca.jpg"]},{"latitude":43.42567782128301,"longitude":-1.4851003904940752,"town":"Arcangues","postcode":"64200","epci":"CA du Pays Basque","county":"Pyrénées-Atlantiques","images":["https://api.v2.clean2gether.com/uploads/c2g_upload_4a96cf89ac.jpg"]}]'
 
 y = json.loads(x)
+data = np.zeros((len(y),4))
 
-print(y[0]["latitude"])
-print(y[1]["latitude"])
-
-
-
-data =[[    45.6754,    0.24273,   6000.    ],
-       [    45.59092,    0.27279,   5200.    ],
-       [    45.54825,    0.12207,   5800.    ],
-       [    45.64459,    0.11869,   5900.    ],
-       [    45.70302,    -0.30443,  5312.    ],
-       [    45.63751,    0.14252,   5600.    ]]
+for i in range(len(y)):
+       data[i][0]=y[i]["latitude"]
+       data[i][1]=y[i]["longitude"]
+       data[i][2] = 6000
+       data[i][3] = 20
 
 m = folium.Map([45.6754, 0.24273],
                control_scale = True, zoom_start=11)
