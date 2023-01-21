@@ -7,6 +7,7 @@ Created on Thu Jan 12 15:03:16 2023
 
 import folium
 import numpy as np
+import matplotlib.pyplot as plt
 from folium import plugins
 from folium.plugins import HeatMap
 import pandas as pd
@@ -20,7 +21,7 @@ dataset= pd.DataFrame({'latitude':df['latitude'],'longitude':df['longitude'],'in
 dataset.to_csv("Dataset_angouleme.csv",index=False, sep=";")
 start_date =datetime.date(2021,1,1)
 end_date = datetime.date(2022,1,1)
-nb_date = 18
+nb_date = 5
 def random_date(start,end, nb_date):
     rand_date = []
     while start<=end:
@@ -54,3 +55,9 @@ def Volume_Toxicite(K):  # Avec K le nombre de dates pour un même dépôt sauva
 
 
 """print(Volume_Toxicite(5))"""
+
+plt.title("Evolution du volume de déchet à un lieu donné")
+plt.plot(index_date,Volume_Toxicite(5)[0])
+plt.xlabel('Temps')
+plt.ylabel('Volume')
+plt.show()
