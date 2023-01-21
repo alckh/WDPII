@@ -10,6 +10,7 @@ import numpy as np
 from folium import plugins
 from folium.plugins import HeatMap
 import pandas as pd
+import matplotlib.pyplot as plt
 import random
 from random import choices
 import datetime
@@ -19,7 +20,7 @@ df = pd.read_csv('angouleme_segmenté.csv',encoding='latin-1')
 dataset= pd.DataFrame({'latitude':df['latitude'],'longitude':df['longitude'],'intensite':6000})
 start_date = datetime.date(2021, 1, 1)
 end_date = datetime.date(2022, 1, 1)
-nb_date = 19
+nb_date = 5
 col_date = [i for i in range(1,nb_date+1)]
 df_data_date= dataset.set_index(['latitude','longitude'])
 column_date=[]
@@ -28,6 +29,9 @@ for x in col_date:
     column_date.append(numeroter)
 df_data_date= df_data_date.reindex(columns= column_date)
 df_data_date.to_csv("Dataset_angouleme.csv", sep=";")
+
+print(df_data_date)
+
 def random_date(start,end, nb_date):
     rand_date = []
     while start<=end:
@@ -62,7 +66,7 @@ def Volume_Toxicite(K):  # Avec K le nombre de dates pour un même dépôt sauva
 
 """print(Volume_Toxicite(5))"""
 plt.title("Evolution du volume de déchet à un lieu donné")
-plt.plot(index_date,Volume_Toxicite(5)[0])
+plt.plot(index_date,Volume_Toxicite(nb_date)[0])
 plt.xlabel('Temps')
 plt.ylabel('Volume')
 plt.show()
