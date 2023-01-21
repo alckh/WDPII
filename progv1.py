@@ -28,7 +28,6 @@ for x in col_date:
     column_date.append(numeroter)
 df_data_date= df_data_date.reindex(columns= column_date)
 df_data_date.to_csv("Dataset_angouleme.csv", sep=";")
-
 def random_date(start,end, nb_date):
     rand_date = []
     while start<=end:
@@ -62,3 +61,8 @@ def Volume_Toxicite(K):  # Avec K le nombre de dates pour un même dépôt sauva
 
 
 """print(Volume_Toxicite(5))"""
+plt.title("Evolution du volume de déchet à un lieu donné")
+plt.plot(index_date,Volume_Toxicite(5)[0])
+plt.xlabel('Temps')
+plt.ylabel('Volume')
+plt.show()
