@@ -10,6 +10,9 @@ import numpy as np
 from folium import plugins
 from folium.plugins import HeatMap
 import pandas as pd
+import random
+from random import choices
+import datetime
 
 df = pd.read_csv('angouleme_segmenté.csv',encoding='latin-1')
 
