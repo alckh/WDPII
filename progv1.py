@@ -8,6 +8,7 @@ Created on Thu Jan 12 15:03:16 2023
 import folium
 import numpy as np
 from folium import plugins
+import matplotlib.pyplot as plt
 from folium.plugins import HeatMap
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -68,5 +69,6 @@ def Volume_Toxicite(K):  # Avec K le nombre de dates pour un même dépôt sauva
 plt.title("Evolution du volume de déchet à un lieu donné")
 plt.plot(index_date,Volume_Toxicite(nb_date)[0])
 plt.xlabel('Temps')
+plt.xticks(rotation=90)
 plt.ylabel('Volume')
 plt.show()
