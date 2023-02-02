@@ -46,6 +46,23 @@ m = folium.Map([45.64454, 0.14273],control_scale = True, zoom_start=13)
 heat_data = [[row['latitude'],row['longitude']] for index, row in dataset.iterrows()]
 HeatMap(heat_data, radius = 20, min_opacity = 0.9,gradient={.6: 'yellow', .98: 'orange', 1: 'red'}).add_to(m)
 
+lat = float(45.6)
+lon = float(0.10)
+lat_interval = 0.01
+lon_interval = 0.01
+grid = []
+
+while (lat<=45.7):
+    grid.append([[lat, -180],[lat, 180]])
+    lat = lat + lat_interval
+
+while (lon<=0.2):
+    grid.append([[-90, lon],[90, lon]])
+    lon = lon + lon_interval
+
+for g in grid:
+    folium.PolyLine(g, color="red", opacity=100).add_to(m)
+    
 m.save('maCarte1.html')
 
 
