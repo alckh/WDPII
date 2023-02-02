@@ -25,7 +25,7 @@ nb_date = 5
 col_date = [i for i in range(1,nb_date+1)]
 df_data_date= dataset.set_index(['latitude','longitude'])
 column_date=[]
-for x in col_date:
+for x in range(1,nb_date+1):
     numeroter = "Date" + str(x)
     column_date.append(numeroter)
 df_data_date= df_data_date.reindex(columns= column_date)
@@ -40,9 +40,12 @@ def random_date(start,end, nb_date):
         start += datetime.timedelta(days=1)
     rand_date= choices(rand_date,k=nb_date)
     return sorted(rand_date)
-index_date= random_date(start_date,end_date,nb_date)
-m = folium.Map(location = [45.648377,0.1562369],
-               control_scale = True, zoom_start=13)
+
+df_data_date.iloc[:]= random_date(start_date,end_date,nb_date)
+index_date= df_data_date.to_numpy()
+
+m = folium.Map([45.64454, 0.14273],control_scale = True, zoom_start=13)
+
 heat_data = [[row['latitude'],row['longitude']] for index, row in dataset.iterrows()]
 HeatMap(heat_data, radius = 20, min_opacity = 0.9,gradient={.6: 'yellow', .98: 'orange', 1: 'red'}).add_to(m)
 
@@ -63,6 +66,23 @@ while (lon<=0.2):
 for g in grid:
     folium.PolyLine(g, color="red", opacity=100).add_to(m)
 
+lat = float(45.6)
+lon = float(0.10)
+lat_interval = 0.01
+lon_interval = 0.01
+grid = []
+
+while (lat<=45.7):
+    grid.append([[lat, -180],[lat, 180]])
+    lat = lat + lat_interval
+
+while (lon<=0.2):
+    grid.append([[-90, lon],[90, lon]])
+    lon = lon + lon_interval
+
+for g in grid:
+    folium.PolyLine(g, color="red", opacity=100).add_to(m)
+    
 m.save('maCarte1.html')
 
 
@@ -84,7 +104,7 @@ def Volume_Toxicite(K):  # Avec K le nombre de dates pour un même dépôt sauva
 
 """print(Volume_Toxicite(5))"""
 plt.title("Evolution du volume de déchet à un lieu donné")
-plt.plot(index_date,Volume_Toxicite(nb_date)[0])
+plt.plot(index_date[0],Volume_Toxicite(nb_date)[0])
 plt.xlabel('Temps')
 plt.xticks(rotation=90)
 plt.ylabel('Volume')
