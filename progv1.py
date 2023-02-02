@@ -41,8 +41,8 @@ def random_date(start,end, nb_date):
     rand_date= choices(rand_date,k=nb_date)
     return sorted(rand_date)
 index_date= random_date(start_date,end_date,nb_date)
-m = folium.Map([45.64454, 0.14273],control_scale = True, zoom_start=13)
-
+m = folium.Map(location = [45.648377,0.1562369],
+               control_scale = True, zoom_start=13)
 heat_data = [[row['latitude'],row['longitude']] for index, row in dataset.iterrows()]
 HeatMap(heat_data, radius = 20, min_opacity = 0.9,gradient={.6: 'yellow', .98: 'orange', 1: 'red'}).add_to(m)
 
