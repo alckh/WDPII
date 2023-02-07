@@ -19,31 +19,6 @@ import datetime
 df = pd.read_csv('angouleme_segmenté.csv',encoding='latin-1')
 
 dataset= pd.DataFrame({'latitude':df['latitude'],'longitude':df['longitude'],'intensite':6000})
-start_date = datetime.date(2021, 1, 1)
-end_date = datetime.date(2022, 1, 1)
-nb_date = 5
-col_date = [i for i in range(1,nb_date+1)]
-df_data_date= dataset.set_index(['latitude','longitude'])
-column_date=[]
-for x in range(1,nb_date+1):
-    numeroter = "Date" + str(x)
-    column_date.append(numeroter)
-df_data_date= df_data_date.reindex(columns= column_date)
-df_data_date.to_csv("Dataset_angouleme.csv", sep=";")
-
-print(df_data_date)
-
-def random_date(start,end, nb_date):
-    rand_date = []
-    while start<=end:
-        rand_date.append(start)
-        start += datetime.timedelta(days=1)
-    rand_date= choices(rand_date,k=nb_date)
-    return sorted(rand_date)
-
-df_data_date.iloc[:]= random_date(start_date,end_date,nb_date)
-index_date= df_data_date.to_numpy()
-
 m = folium.Map([45.64454, 0.14273],control_scale = True, zoom_start=13)
 
 heat_data = [[row['latitude'],row['longitude']] for index, row in dataset.iterrows()]
@@ -86,6 +61,49 @@ for g in grid:
 m.save('maCarte1.html')
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""start_date = datetime.date(2021, 1, 1)
+end_date = datetime.date(2022, 1, 1)
+nb_date = 5
+col_date = [i for i in range(1,nb_date+1)]
+df_data_date= dataset.set_index(['latitude','longitude'])
+column_date=[]
+for x in range(1,nb_date+1):
+    numeroter = "Date" + str(x)
+    column_date.append(numeroter)
+df_data_date= df_data_date.reindex(columns= column_date)
+df_data_date.to_csv("Dataset_angouleme.csv", sep=";")
+
+print(df_data_date)
+
+def random_date(start,end, nb_date):
+    rand_date = []
+    while start<=end:
+        rand_date.append(start)
+        start += datetime.timedelta(days=1)
+    rand_date= choices(rand_date,k=nb_date)
+    return sorted(rand_date)
+
+df_data_date.iloc[:]= random_date(start_date,end_date,nb_date)
+index_date= df_data_date.to_numpy()
+
+
+
 def Volume_Toxicite(K):  # Avec K le nombre de dates pour un même dépôt sauvage
     L_volume = []
     L_toxicite = []
@@ -102,10 +120,11 @@ def Volume_Toxicite(K):  # Avec K le nombre de dates pour un même dépôt sauva
     return L_volume, L_toxicite
 
 
-"""print(Volume_Toxicite(5))"""
+#print(Volume_Toxicite(5))
 plt.title("Evolution du volume de déchet à un lieu donné")
 plt.plot(index_date[0],Volume_Toxicite(nb_date)[0])
 plt.xlabel('Temps')
 plt.xticks(rotation=90)
 plt.ylabel('Volume')
 plt.show()
+"""
