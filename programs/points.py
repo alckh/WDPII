@@ -42,7 +42,7 @@ grid.append([[45.637087, 0.12],[45.637087, 0.22]])
 for g in grid:
     folium.PolyLine(g, color="red", opacity=100).add_to(m)
     
-m.save('maCarte1.html')
+m.save('../maps/maCarte1.html')
 
 #Map des points
 
