@@ -79,14 +79,14 @@ def graph_excel(nom_classeur):
     plt.legend()
     plt.show()
 
-print(graph_excel("BDD_Chantier.xlsx"))
-print(graph_excel("BDD_Demenagement.xlsx"))
-print(graph_excel("BDD_EspacesVerts.xlsx"))
-print(graph_excel("BDD_Festival.xlsx"))
-print(graph_excel("BDD_GroupeScolaire.xlsx"))
-print(graph_excel("BDD_QuartierCatastrophe.xlsx"))
-print(graph_excel("BDD_QuartierExemplaire.xlsx"))
-print(graph_excel("BDD_ScolaireEspacesVerts.xlsx"))
+graph_excel("BDD_Chantier.xlsx")
+graph_excel("BDD_Demenagement.xlsx")
+graph_excel("BDD_EspacesVerts.xlsx")
+graph_excel("BDD_Festival.xlsx")
+graph_excel("BDD_GroupeScolaire.xlsx")
+graph_excel("BDD_QuartierCatastrophe.xlsx")
+graph_excel("BDD_QuartierExemplaire.xlsx")
+graph_excel("BDD_ScolaireEspacesVerts.xlsx")
 
 
 
