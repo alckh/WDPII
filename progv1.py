@@ -62,7 +62,31 @@ m.save('maCarte1.html')
 
 
 
+#Celian
+def graph_excel(nom_classeur):
+    df = pd.read_excel(nom_classeur) 
 
+    date = df['Date'].tolist()
+    volume = df['Volume'].tolist()
+    nocivite = df['Nocivité'].tolist()
+
+    plt.title("Evolution " + nom_classeur)
+    plt.plot(date,volume, label='Volume')
+    plt.plot(date,nocivite, label='Nocivité')
+    plt.xlabel('Temps')
+    plt.xticks(rotation=90)
+    plt.ylabel('Valeur')
+    plt.legend()
+    plt.show()
+
+print(graph_excel("BDD_Chantier.xlsx"))
+print(graph_excel("BDD_Demenagement.xlsx"))
+print(graph_excel("BDD_EspacesVerts.xlsx"))
+print(graph_excel("BDD_Festival.xlsx"))
+print(graph_excel("BDD_GroupeScolaire.xlsx"))
+print(graph_excel("BDD_QuartierCatastrophe.xlsx"))
+print(graph_excel("BDD_QuartierExemplaire.xlsx"))
+print(graph_excel("BDD_ScolaireEspacesVerts.xlsx"))
 
 
 
