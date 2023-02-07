@@ -51,7 +51,14 @@ m.save('../maps/maCarte1.html')
 #P9  P10 P11 P12
 #P13 P14 P15 P16
 
-#Shift Latitude par rapport au point tout au NO: -0.010159
+#Dimensions d'un rectangle (exemple: P1-----P2)
+#                                    |       | 
+#                                    P5-----P6
+# Longueur: 2,66666667km
+# largeur : 1,25000000km
+# Aire    : 3,33333376kmcarré
+
+#Shift Latitude pour chaque point par rapport au point tout au NO: -0.010159
 #Shift Longitude par rapport au point tout au NO: +0.173418
 
 #P1:  LAT:45.667565 LON:0.12
