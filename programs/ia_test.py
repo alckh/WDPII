@@ -32,10 +32,10 @@ train_data = scaled_data[0:training_data_len  , : ]
 # 5. Separating the data into x and y data
 x_train_data=[]
 y_train_data =[]
-for i in range(12,len(train_data)):
+for i in range(30,len(train_data)):
     x_train_data=list(x_train_data)
     y_train_data=list(y_train_data)
-    x_train_data.append(train_data[i-12:i,0])
+    x_train_data.append(train_data[i-30:i,0])
     y_train_data.append(train_data[i,0])
  
     # 6. Converting the training x and y values to numpy arrays
@@ -54,11 +54,11 @@ model.compile(optimizer='adam', loss='mean_squared_error')
 model.fit(x_train_data2, y_train_data1, batch_size=1, epochs=1)
 
 # 1. Creating a dataset for testing
-test_data = scaled_data[training_data_len - 12: , : ]
+test_data = scaled_data[training_data_len - 30: , : ]
 x_test = []
 y_test =  dataset[training_data_len : , : ]
-for i in range(12,len(test_data)):
-    x_test.append(test_data[i-12:i,0])
+for i in range(30,len(test_data)):
+    x_test.append(test_data[i-30:i,0])
  
 # 2.  Convert the values into arrays for easier computation
 x_test = np.array(x_test)
