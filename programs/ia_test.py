@@ -13,10 +13,10 @@ from keras.layers import Dense, LSTM
 import math
 from sklearn.preprocessing import MinMaxScaler
 
-df = pd.read_excel("BDD_ScolaireEspacesVerts.xlsx")
+df = pd.read_excel("../BDD/BDD_EspacesVerts.xlsx")
 
 # 1. Filter out the closing market price data
-volume_data = df.filter(['Volume'])
+volume_data = df.filter(['Volume continu'])
 
 # 2. Convert the data into array for easy evaluation
 dataset= volume_data.values
@@ -80,8 +80,8 @@ plt.title('Model')
 plt.xlabel('Date')
 plt.ylabel('Volume')
  
-plt.plot(train['Volume'])
-plt.plot(valid[['Volume', 'Predictions']])
+plt.plot(train['Volume continu'])
+plt.plot(valid[['Volume continu', 'Predictions']])
  
 plt.legend(['Train', 'Test', 'Predictions'], loc='lower right')
  
