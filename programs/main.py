@@ -17,11 +17,27 @@ from random import choices
 import datetime
 
 df = pd.read_excel("../BDD/BDD_EspacesVerts.xlsx")
-
 dataset= pd.DataFrame({'Latitude':df['Latitude'],'Longitude':df['Longitude'],'intensite':6000})
 m = folium.Map([45.64454, 0.14273],control_scale = True, zoom_start=13)
 heat_data = [[row['Latitude'],row['Longitude']] for index, row in dataset.iterrows()]
 HeatMap(heat_data, radius = 20, min_opacity = 0.9,gradient={.6: 'yellow', .98: 'orange', 1: 'red'}).add_to(m)
+
+df_constante = pd.read_excel("../BDD/BDD_Constante.xlsx")
+dataset2= pd.DataFrame({'Latitude':df_constante['Latitude'],'Longitude':df_constante['Longitude'],'intensite':6000})
+heat_data2 = [[row['Latitude'],row['Longitude']] for index, row in dataset2.iterrows()]
+HeatMap(heat_data2, radius = 20, min_opacity = 0.9,gradient={.6: 'yellow', .98: 'orange', 1: 'red'}).add_to(m)
+
+df_disco = pd.read_excel("../BDD/BDD_Discotheque.xlsx")
+dataset3= pd.DataFrame({'Latitude':df_disco['Latitude'],'Longitude':df_disco['Longitude'],'intensite':6000})
+heat_data3 = [[row['Latitude'],row['Longitude']] for index, row in dataset3.iterrows()]
+HeatMap(heat_data3, radius = 20, min_opacity = 0.9,gradient={1: 'yellow', 1: 'orange',1:'red'}).add_to(m)
+
+df_chantier = pd.read_excel("../BDD/BDD_Chantier.xlsx")
+dataset4= pd.DataFrame({'Latitude':df_chantier['Latitude'],'Longitude':df_chantier['Longitude'],'intensite':6000})
+heat_data4 = [[row['Latitude'],row['Longitude']] for index, row in dataset3.iterrows()]
+HeatMap(heat_data4, radius = 20, min_opacity = 0.9,gradient={1: 'yellow', 1: 'orange',1:'red'}).add_to(m)
+
+
 
 
 grid = []
