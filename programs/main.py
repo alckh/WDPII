@@ -16,11 +16,11 @@ import random
 from random import choices
 import datetime
 
-df = pd.read_csv('../data/angouleme_segmenté.csv',encoding='latin-1')
+df = pd.read_excel("../BDD/BDD_EspacesVerts.xlsx")
 
-dataset= pd.DataFrame({'latitude':df['latitude'],'longitude':df['longitude'],'intensite':6000})
+dataset= pd.DataFrame({'Latitude':df['Latitude'],'Longitude':df['Longitude'],'intensite':6000})
 m = folium.Map([45.64454, 0.14273],control_scale = True, zoom_start=13)
-heat_data = [[row['latitude'],row['longitude']] for index, row in dataset.iterrows()]
+heat_data = [[row['Latitude'],row['Longitude']] for index, row in dataset.iterrows()]
 HeatMap(heat_data, radius = 20, min_opacity = 0.9,gradient={.6: 'yellow', .98: 'orange', 1: 'red'}).add_to(m)
 
 
@@ -34,17 +34,16 @@ grid.append([[45.657406, 0.12],[45.657406, 0.22]])
 grid.append([[45.647247, 0.12],[45.647247, 0.22]])
 grid.append([[45.637087, 0.12],[45.637087, 0.22]])
 
- 
 
-folium.Marker([45.662898, 0.135],popup= 'zone1' ).add_to(m)
-folium.Marker([45.662898, 0.17],popup='zone2').add_to(m)
-folium.Marker([45.662898, 0.20],popup='zone3').add_to(m)
-folium.Marker([45.651889, 0.135],popup='zone4').add_to(m)
-folium.Marker([45.651889, 0.17],popup='Quartier aisé').add_to(m)
-folium.Marker([45.651889, 0.20],popup='zone6').add_to(m)
-folium.Marker([45.640000, 0.135],popup='zone7').add_to(m)
-folium.Marker([45.640000, 0.17],popup='zone8').add_to(m)
-folium.Marker([45.640000, 0.20],popup='zone9').add_to(m)
+folium.Marker([45.662898, 0.135],popup= 'Zone festival' ).add_to(m)
+folium.Marker([45.662898, 0.17],popup='Quartier réfulièrement sujet aux cleanwalk').add_to(m)
+folium.Marker([45.662898, 0.20],popup='Quartier insalubre').add_to(m)
+folium.Marker([45.651889, 0.135],popup='Déménagements').add_to(m)
+folium.Marker([45.651889, 0.17],popup='Quartier idéal').add_to(m)
+folium.Marker([45.651889, 0.20],popup='Espaces verts').add_to(m)
+folium.Marker([45.640000, 0.135],popup='Abords autoroute').add_to(m)
+folium.Marker([45.640000, 0.17],popup='Zone en chantier').add_to(m)
+folium.Marker([45.640000, 0.20],popup='Zone avec discothèques').add_to(m)
 
 
 for g in grid:
