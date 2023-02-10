@@ -11,6 +11,8 @@ import random
 from random import choices
 import datetime
 
+
+
 m = folium.Map([45.64454, 0.14273],control_scale = True, zoom_start=13)
 
 # heat_data = [[row['latitude'],row['longitude']] for index, row in dataset.iterrows()]
@@ -38,6 +40,19 @@ grid.append([[45.667565, 0.12],[45.667565, 0.22]])
 grid.append([[45.657406, 0.12],[45.657406, 0.22]])
 grid.append([[45.647247, 0.12],[45.647247, 0.22]])
 grid.append([[45.637087, 0.12],[45.637087, 0.22]])
+
+ 
+
+folium.Marker([45.662898, 0.135],popup= 'zone1' ).add_to(m)
+folium.Marker([45.662898, 0.17],popup='zone2').add_to(m)
+folium.Marker([45.662898, 0.20],popup='zone3').add_to(m)
+folium.Marker([45.651889, 0.135],popup='zone4').add_to(m)
+folium.Marker([45.651889, 0.17],popup='Quartier aisé').add_to(m)
+folium.Marker([45.651889, 0.20],popup='zone6').add_to(m)
+folium.Marker([45.640000, 0.135],popup='zone7').add_to(m)
+folium.Marker([45.640000, 0.17],popup='zone8').add_to(m)
+folium.Marker([45.640000, 0.20],popup='zone9').add_to(m)
+
 
 for g in grid:
     folium.PolyLine(g, color="red", opacity=100).add_to(m)
