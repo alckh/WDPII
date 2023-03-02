@@ -1,0 +1,946 @@
+﻿id,scenario,volume,volumecontinu,date
+1,Quartier ideal,32,24.42,2023-01-01
+2,Quartier ideal,29,22.17697328,2023-01-08
+3,Quartier ideal,26,20.0953485,2023-01-15
+4,Quartier ideal,15,18.16840376,2023-01-22
+5,Quartier ideal,9,16.38954394,2023-01-29
+6,Quartier ideal,8,14.75230063,2023-02-05
+7,Quartier ideal,5,13.25033218,2023-02-12
+8,Quartier ideal,2,11.87742368,2023-02-19
+9,Quartier ideal,1,10.62748698,2023-02-26
+10,Quartier ideal,2,9.494560641,2023-03-05
+11,Quartier ideal,1,8.47281,2023-03-12
+12,Quartier ideal,3,7.556527121,2023-03-19
+13,Quartier ideal,4,6.740130816,2023-03-26
+14,Quartier ideal,2,6.018166641,2023-04-02
+15,Quartier ideal,3,5.385306896,2023-04-09
+16,Quartier ideal,5,4.836350625,2023-04-16
+17,Quartier ideal,10,4.366223616,2023-04-23
+18,Quartier ideal,9,3.969978401,2023-04-30
+19,Quartier ideal,7,3.642794256,2023-05-07
+20,Quartier ideal,9,3.379977201,2023-05-14
+21,Quartier ideal,6,3.17696,2023-05-21
+22,Quartier ideal,10,3.029302161,2023-05-28
+23,Quartier ideal,8,2.932689936,2023-06-04
+24,Quartier ideal,5,2.882936321,2023-06-11
+25,Quartier ideal,8,2.875981056,2023-06-18
+26,Quartier ideal,7,2.907890625,2023-06-25
+27,Quartier ideal,7,2.974858256,2023-07-02
+28,Quartier ideal,10,3.073203921,2023-07-09
+29,Quartier ideal,9,3.199374336,2023-07-16
+30,Quartier ideal,4,3.349942961,2023-07-23
+31,Quartier ideal,0,3.52161,2023-07-30
+32,Quartier ideal,0,3.711202401,2023-08-06
+33,Quartier ideal,3,3.915673856,2023-08-13
+34,Quartier ideal,2,4.132104801,2023-08-20
+35,Quartier ideal,0,4.357702416,2023-08-27
+36,Quartier ideal,1,4.589800625,2023-09-03
+37,Quartier ideal,4,4.825860096,2023-09-10
+38,Quartier ideal,3,5.063468241,2023-09-17
+39,Quartier ideal,4,5.300339216,2023-09-24
+40,Quartier ideal,2,5.534313921,2023-10-01
+41,Quartier ideal,2,5.76336,2023-10-08
+42,Quartier ideal,2,5.985571841,2023-10-15
+43,Quartier ideal,5,6.199170576,2023-10-22
+44,Quartier ideal,5,6.402504081,2023-10-29
+45,Quartier ideal,5,6.594046976,2023-11-05
+46,Quartier ideal,2,6.772400625,2023-11-12
+47,Quartier ideal,3,6.936293136,2023-11-19
+48,Quartier ideal,3,7.084579361,2023-11-26
+49,Quartier ideal,5,7.216240896,2023-12-03
+50,Quartier ideal,6,7.330386081,2023-12-10
+51,Quartier ideal,15,7.42625,2023-12-17
+52,Quartier ideal,20,7.503194481,2023-12-24
+53,Quartier ideal,22,7.560708096,2023-12-31
+54,Quartier ideal,14,7.598406161,2024-01-07
+55,Quartier ideal,7,7.616030736,2024-01-14
+56,Quartier ideal,5,7.613450625,2024-01-21
+57,Quartier ideal,5,7.590661376,2024-01-28
+58,Quartier ideal,8,7.547785281,2024-02-04
+59,Quartier ideal,10,7.485071376,2024-02-11
+60,Quartier ideal,7,7.402895441,2024-02-18
+61,Quartier ideal,5,7.30176,2024-02-25
+62,Quartier ideal,7,7.182294321,2024-03-03
+63,Quartier ideal,8,7.045254416,2024-03-10
+64,Quartier ideal,3,6.891523041,2024-03-17
+65,Quartier ideal,4,6.722109696,2024-03-24
+66,Quartier ideal,4,6.538150625,2024-03-31
+67,Quartier ideal,5,6.340908816,2024-04-07
+68,Quartier ideal,4,6.131774001,2024-04-14
+69,Quartier ideal,5,5.912262656,2024-04-21
+70,Quartier ideal,3,5.684018001,2024-04-28
+71,Quartier ideal,6,5.44881,2024-05-05
+72,Quartier ideal,5,5.208535361,2024-05-12
+73,Quartier ideal,3,4.965217536,2024-05-19
+74,Quartier ideal,2,4.721006721,2024-05-26
+75,Quartier ideal,7,4.478179856,2024-06-02
+76,Quartier ideal,3,4.239140625,2024-06-09
+77,Quartier ideal,5,4.006419456,2024-06-16
+78,Quartier ideal,5,3.782673521,2024-06-23
+79,Quartier ideal,4,3.570686736,2024-06-30
+80,Quartier ideal,4,3.373369761,2024-07-07
+81,Quartier ideal,3,3.19376,2024-07-14
+82,Quartier ideal,3,3.035021601,2024-07-21
+83,Quartier ideal,4,2.900445456,2024-07-28
+84,Quartier ideal,2,2.793449201,2024-08-04
+85,Quartier ideal,3,2.717577216,2024-08-11
+86,Quartier ideal,1,2.676500625,2024-08-18
+87,Quartier ideal,2,2.674017296,2024-08-25
+88,Quartier ideal,5,2.714051841,2024-09-01
+89,Quartier ideal,7,2.800655616,2024-09-08
+90,Quartier ideal,3,2.938006721,2024-09-15
+91,Quartier ideal,3,3.13041,2024-09-22
+92,Quartier ideal,7,3.382297041,2024-09-29
+93,Quartier ideal,2,3.698226176,2024-10-06
+94,Quartier ideal,5,4.082882481,2024-10-13
+95,Quartier ideal,6,4.541077776,2024-10-20
+96,Quartier ideal,5,5.077750625,2024-10-27
+97,Quartier ideal,6,5.697966336,2024-11-03
+98,Quartier ideal,13,6.406916961,2024-11-10
+99,Quartier ideal,10,7.209921296,2024-11-17
+100,Quartier ideal,5,8.112424881,2024-11-24
+101,Quartier ideal,6,9.12,2024-12-01
+102,Quartier ideal,7,10.23834568,2024-12-08
+103,Quartier ideal,9,11.4732877,2024-12-15
+104,Quartier ideal,15,12.83077856,2024-12-22
+105,Quartier ideal,22,14.31689754,2024-12-29
+106,Quartier insalubre,300,201.2,2023-01-01
+107,Quartier insalubre,252,211.6598204,2023-01-08
+108,Quartier insalubre,198,214.2265276,2023-01-15
+109,Quartier insalubre,159,210.8648154,2023-01-22
+110,Quartier insalubre,143,203.2815577,2023-01-29
+111,Quartier insalubre,134,192.9463471,2023-02-05
+112,Quartier insalubre,112,181.111077,2023-02-12
+113,Quartier insalubre,120,168.8285865,2023-02-19
+114,Quartier insalubre,125,156.9703896,2023-02-26
+115,Quartier insalubre,130,146.2435082,2023-03-05
+116,Quartier insalubre,138,137.20643,2023-03-12
+117,Quartier insalubre,142,130.2842112,2023-03-19
+118,Quartier insalubre,146,125.7827442,2023-03-26
+119,Quartier insalubre,150,123.9022117,2023-04-02
+120,Quartier insalubre,163,124.7497461,2023-04-09
+121,Quartier insalubre,168,128.3513157,2023-04-16
+122,Quartier insalubre,173,134.6628579,2023-04-23
+123,Quartier insalubre,178,143.5806793,2023-04-30
+124,Quartier insalubre,176,154.9511433,2023-05-07
+125,Quartier insalubre,177,168.5796659,2023-05-14
+126,Quartier insalubre,183,184.23904,2023-05-21
+127,Quartier insalubre,194,201.6771077,2023-05-28
+128,Quartier insalubre,200,220.6238023,2023-06-04
+129,Quartier insalubre,230,240.7975796,2023-06-11
+130,Quartier insalubre,240,261.9112591,2023-06-18
+131,Quartier insalubre,270,283.6772949,2023-06-25
+132,Quartier insalubre,311,305.8124981,2023-07-02
+133,Quartier insalubre,434,328.0422292,2023-07-09
+134,Quartier insalubre,509,350.1040825,2023-07-16
+135,Quartier insalubre,676,371.7510822,2023-07-23
+136,Quartier insalubre,783,392.75441,2023-07-30
+137,Quartier insalubre,602,412.9056857,2023-08-06
+138,Quartier insalubre,507,432.0188207,2023-08-13
+139,Quartier insalubre,412,449.9314642,2023-08-20
+140,Quartier insalubre,385,466.5060636,2023-08-27
+141,Quartier insalubre,352,481.6305585,2023-09-03
+142,Quartier insalubre,337,495.2187291,2023-09-10
+143,Quartier insalubre,336,507.2102195,2023-09-17
+144,Quartier insalubre,345,517.5702558,2023-09-24
+145,Quartier insalubre,358,526.2890801,2023-10-01
+146,Quartier insalubre,368,533.38112,2023-10-08
+147,Quartier insalubre,374,538.8839143,2023-10-15
+148,Quartier insalubre,389,542.8568159,2023-10-22
+149,Quartier insalubre,399,545.3794908,2023-10-29
+150,Quartier insalubre,410,546.5502353,2023-11-05
+151,Quartier insalubre,512,546.4841302,2023-11-12
+152,Quartier insalubre,620,545.311054,2023-11-19
+153,Quartier insalubre,723,543.1735734,2023-11-26
+154,Quartier insalubre,636,540.2247341,2023-12-03
+155,Quartier insalubre,644,536.6257695,2023-12-10
+156,Quartier insalubre,753,532.54375,2023-12-17
+157,Quartier insalubre,870,528.1491917,2023-12-24
+158,Quartier insalubre,985,523.613646,2023-12-31
+159,Quartier insalubre,880,519.1072894,2024-01-07
+160,Quartier insalubre,740,514.7965346,2024-01-14
+161,Quartier insalubre,700,510.8416838,2024-01-21
+162,Quartier insalubre,590,507.3946427,2024-01-28
+163,Quartier insalubre,550,504.5967175,2024-02-04
+164,Quartier insalubre,520,502.5765146,2024-02-11
+165,Quartier insalubre,513,501.4479629,2024-02-18
+166,Quartier insalubre,522,501.30848,2024-02-25
+167,Quartier insalubre,524,502.2373014,2024-03-03
+168,Quartier insalubre,528,504.2939947,2024-03-10
+169,Quartier insalubre,538,507.517178,2024-03-17
+170,Quartier insalubre,548,511.9234629,2024-03-24
+171,Quartier insalubre,553,517.506643,2024-03-31
+172,Quartier insalubre,564,524.2371485,2024-04-07
+173,Quartier insalubre,573,532.061786,2024-04-14
+174,Quartier insalubre,630,540.903785,2024-04-21
+175,Quartier insalubre,643,550.6631719,2024-04-28
+176,Quartier insalubre,650,561.21749,2024-05-05
+177,Quartier insalubre,657,572.4228879,2024-05-12
+178,Quartier insalubre,680,584.1155953,2024-05-19
+179,Quartier insalubre,687,596.1138075,2024-05-26
+180,Quartier insalubre,709,608.2199982,2024-06-02
+181,Quartier insalubre,730,620.2236816,2024-06-09
+182,Quartier insalubre,746,631.904644,2024-06-16
+183,Quartier insalubre,753,643.0366646,2024-06-23
+184,Quartier insalubre,769,653.3917474,2024-06-30
+185,Quartier insalubre,875,662.7448825,2024-07-07
+186,Quartier insalubre,972,670.87936,2024-07-14
+187,Quartier insalubre,1020,677.5926531,2024-07-21
+188,Quartier insalubre,1045,682.7028946,2024-07-28
+189,Quartier insalubre,1102,686.0559647,2024-08-04
+190,Quartier insalubre,1200,687.5332113,2024-08-11
+191,Quartier insalubre,1304,687.0598234,2024-08-18
+192,Quartier insalubre,1200,684.6138768,2024-08-25
+193,Quartier insalubre,1000,680.236075,2024-09-01
+194,Quartier insalubre,980,674.0402022,2024-09-08
+195,Quartier insalubre,963,666.224312,2024-09-15
+196,Quartier insalubre,933,657.08267,2024-09-22
+197,Quartier insalubre,940,647.018472,2024-09-29
+198,Quartier insalubre,950,636.5573571,2024-10-06
+199,Quartier insalubre,980,626.3617372,2024-10-13
+200,Quartier insalubre,945,617.2459621,2024-10-20
+201,Quartier insalubre,999,610.192342,2024-10-27
+202,Quartier insalubre,1012,606.3680458,2024-11-03
+203,Quartier insalubre,1022,607.142898,2024-11-10
+204,Quartier insalubre,1030,614.1080924,2024-11-17
+205,Quartier insalubre,1145,629.095844,2024-11-24
+206,Quartier insalubre,1265,654.2,2024-12-01
+207,Quartier insalubre,1350,691.7976289,2024-12-08
+208,Quartier insalubre,1434,744.5716089,2024-12-15
+209,Quartier insalubre,1560,815.5342367,2024-12-22
+210,Quartier insalubre,1620,908.0518749,2024-12-29
+211,Zone avec discotheque,409,613.3,2023-01-01
+212,Zone avec discotheque,409,497.8291443,2023-01-08
+213,Zone avec discotheque,386,404.3326603,2023-01-15
+214,Zone avec discotheque,386,329.6428193,2023-01-22
+215,Zone avec discotheque,227,270.917503,2023-01-29
+216,Zone avec discotheque,227,225.6177674,2023-02-05
+217,Zone avec discotheque,130,191.4863411,2023-02-12
+218,Zone avec discotheque,130,166.5270419,2023-02-19
+219,Zone avec discotheque,98,148.9850937,2023-02-26
+220,Zone avec discotheque,98,137.3283248,2023-03-05
+221,Zone avec discotheque,107,130.22923,2023-03-12
+222,Zone avec discotheque,107,126.5478787,2023-03-19
+223,Zone avec discotheque,151,125.3156504,2023-03-26
+224,Zone avec discotheque,151,125.7197806,2023-04-02
+225,Zone avec discotheque,117,127.0886975,2023-04-09
+226,Zone avec discotheque,117,128.8781329,2023-04-16
+227,Zone avec discotheque,124,130.6579888,2023-04-23
+228,Zone avec discotheque,124,132.0999412,2023-04-30
+229,Zone avec discotheque,115,132.9657641,2023-05-07
+230,Zone avec discotheque,115,133.0963543,2023-05-14
+231,Zone avec discotheque,135,132.40144,2023-05-21
+232,Zone avec discotheque,135,130.8499556,2023-05-28
+233,Zone avec discotheque,113,128.4610626,2023-06-04
+234,Zone avec discotheque,113,125.2958015,2023-06-11
+235,Zone avec discotheque,96,121.4493533,2023-06-18
+236,Zone avec discotheque,96,117.0438965,2023-06-25
+237,Zone avec discotheque,121,112.2220374,2023-07-02
+238,Zone avec discotheque,121,107.1407993,2023-07-09
+239,Zone avec discotheque,146,101.9661499,2023-07-16
+240,Zone avec discotheque,146,96.86805092,2023-07-23
+241,Zone avec discotheque,183,92.01601,2023-07-30
+242,Zone avec discotheque,183,87.5751186,2023-08-06
+243,Zone avec discotheque,146,83.70255666,2023-08-13
+244,Zone avec discotheque,146,80.54454655,2023-08-20
+245,Zone avec discotheque,29,78.23373813,2023-08-27
+246,Zone avec discotheque,29,76.88700695,2023-09-03
+247,Zone avec discotheque,71,76.60364743,2023-09-10
+248,Zone avec discotheque,71,77.46394317,2023-09-17
+249,Zone avec discotheque,44,79.52809627,2023-09-24
+250,Zone avec discotheque,44,82.83549758,2023-10-01
+251,Zone avec discotheque,149,87.40432,2023-10-08
+252,Zone avec discotheque,149,93.2314166,2023-10-15
+253,Zone avec discotheque,112,100.2925058,2023-10-22
+254,Zone avec discotheque,112,108.5426251,2023-10-29
+255,Zone avec discotheque,21,117.9168364,2023-11-05
+256,Zone avec discotheque,21,128.331163,2023-11-12
+257,Zone avec discotheque,142,139.6837425,2023-11-19
+258,Zone avec discotheque,142,151.8561758,2023-11-26
+259,Zone avec discotheque,70,164.7150549,2023-12-03
+260,Zone avec discotheque,70,178.1136519,2023-12-10
+261,Zone avec discotheque,86,191.89375,2023-12-17
+262,Zone avec discotheque,86,205.8875996,2023-12-24
+263,Zone avec discotheque,224,219.9199809,2023-12-31
+264,Zone avec discotheque,224,233.8103549,2024-01-07
+265,Zone avec discotheque,313,247.3750855,2024-01-14
+266,Zone avec discotheque,313,260.4297135,2024-01-21
+267,Zone avec discotheque,432,272.7912656,2024-01-28
+268,Zone avec discotheque,432,284.2805795,2024-02-04
+269,Zone avec discotheque,439,294.7246279,2024-02-11
+270,Zone avec discotheque,439,303.9588223,2024-02-18
+271,Zone avec discotheque,418,311.82928,2024-02-25
+272,Zone avec discotheque,418,318.1950348,2024-03-03
+273,Zone avec discotheque,379,322.9301744,2024-03-10
+274,Zone avec discotheque,379,325.9258858,2024-03-17
+275,Zone avec discotheque,374,327.0923914,2024-03-24
+276,Zone avec discotheque,374,326.3607571,2024-03-31
+277,Zone avec discotheque,306,323.6845547,2024-04-07
+278,Zone avec discotheque,306,319.0413604,2024-04-14
+279,Zone avec discotheque,303,312.4340717,2024-04-21
+280,Zone avec discotheque,303,303.892024,2024-04-28
+281,Zone avec discotheque,298,293.47189,2024-05-05
+282,Zone avec discotheque,298,281.2583427,2024-05-12
+283,Zone avec discotheque,89,267.3644645,2024-05-19
+284,Zone avec discotheque,89,251.9318843,2024-05-26
+285,Zone avec discotheque,69,235.130625,2024-06-02
+286,Zone avec discotheque,69,217.1586426,2024-06-09
+287,Zone avec discotheque,62,198.2410392,2024-06-16
+288,Zone avec discotheque,62,178.6289321,2024-06-23
+289,Zone avec discotheque,109,158.5979612,2024-06-30
+290,Zone avec discotheque,109,138.446415,2024-07-07
+291,Zone avec discotheque,25,118.49296,2024-07-14
+292,Zone avec discotheque,25,99.07395288,2024-07-21
+293,Zone avec discotheque,30,80.54031874,2024-07-28
+294,Zone avec discotheque,30,63.25397718,2024-08-04
+295,Zone avec discotheque,116,47.583798,2024-08-11
+296,Zone avec discotheque,116,33.90106867,2024-08-18
+297,Zone avec discotheque,130,22.57445539,2024-08-25
+298,Zone avec discotheque,130,13.96443988,2024-09-01
+299,Zone avec discotheque,134,8.41721368,2024-09-08
+300,Zone avec discotheque,134,6.258012168,2024-09-15
+301,Zone avec discotheque,121,7.78387,2024-09-22
+302,Zone avec discotheque,121,13.25578017,2024-09-29
+303,Zone avec discotheque,29,22.89023851,2024-10-06
+304,Zone avec discotheque,29,36.85015575,2024-10-13
+305,Zone avec discotheque,61,55.23511889,2024-10-20
+306,Zone avec discotheque,61,78.07098414,2024-10-27
+307,Zone avec discotheque,46,105.2987831,2024-11-03
+308,Zone avec discotheque,46,136.7629245,2024-11-10
+309,Zone avec discotheque,126,172.1986728,2024-11-17
+310,Zone avec discotheque,126,211.2188871,2024-11-24
+311,Zone avec discotheque,369,253.3,2024-12-01
+312,Zone avec discotheque,369,297.7672206,2024-12-08
+313,Zone avec discotheque,469,343.7789427,2024-12-15
+314,Zone avec discotheque,469,390.3103396,2024-12-22
+315,Zone avec discotheque,540,436.1361289,2024-12-29
+316,Zone en chantier,0,579.4,2023-01-01
+317,Zone en chantier,1422,670.1056797,2023-01-08
+318,Zone en chantier,1737,754.0963152,2023-01-15
+319,Zone en chantier,604,831.5997757,2023-01-22
+320,Zone en chantier,511,902.8405632,2023-01-29
+321,Zone en chantier,697,968.0398125,2023-02-05
+322,Zone en chantier,816,1027.415291,2023-02-12
+323,Zone en chantier,720,1081.1814,2023-02-19
+324,Zone en chantier,1166,1129.549171,2023-02-26
+325,Zone en chantier,1254,1172.726272,2023-03-05
+326,Zone en chantier,1905,1210.917,2023-03-12
+327,Zone en chantier,1017,1244.322288,2023-03-19
+328,Zone en chantier,1946,1273.139699,2023-03-26
+329,Zone en chantier,1000,1297.563432,2023-04-02
+330,Zone en chantier,944,1317.784315,2023-04-09
+331,Zone en chantier,1347,1333.989813,2023-04-16
+332,Zone en chantier,1736,1346.364019,2023-04-23
+333,Zone en chantier,1898,1355.087664,2023-04-30
+334,Zone en chantier,1921,1360.338107,2023-05-07
+335,Zone en chantier,1695,1362.289344,2023-05-14
+336,Zone en chantier,810,1361.112,2023-05-21
+337,Zone en chantier,994,1356.973336,2023-05-28
+338,Zone en chantier,142,1350.037243,2023-06-04
+339,Zone en chantier,793,1340.464248,2023-06-11
+340,Zone en chantier,172,1328.411507,2023-06-18
+341,Zone en chantier,655,1314.032813,2023-06-25
+342,Zone en chantier,1626,1297.478587,2023-07-02
+343,Zone en chantier,1030,1278.895888,2023-07-09
+344,Zone en chantier,1508,1258.428403,2023-07-16
+345,Zone en chantier,1466,1236.216456,2023-07-23
+346,Zone en chantier,1751,1212.397,2023-07-30
+347,Zone en chantier,1463,1187.103624,2023-08-06
+348,Zone en chantier,970,1160.466547,2023-08-13
+349,Zone en chantier,978,1132.612624,2023-08-20
+350,Zone en chantier,861,1103.665339,2023-08-27
+351,Zone en chantier,955,1073.744813,2023-09-03
+352,Zone en chantier,1324,1042.967795,2023-09-10
+353,Zone en chantier,1294,1011.447672,2023-09-17
+354,Zone en chantier,1047,979.2944592,2023-09-24
+355,Zone en chantier,1267,946.6148077,2023-10-01
+356,Zone en chantier,1319,913.512,2023-10-08
+357,Zone en chantier,1183,880.0859517,2023-10-15
+358,Zone en chantier,1090,846.4332112,2023-10-22
+359,Zone en chantier,888,812.6469597,2023-10-29
+360,Zone en chantier,860,778.8170112,2023-11-05
+361,Zone en chantier,756,745.0298125,2023-11-12
+362,Zone en chantier,743,711.3684432,2023-11-19
+363,Zone en chantier,125,677.9126157,2023-11-26
+364,Zone en chantier,430,644.7386752,2023-12-03
+365,Zone en chantier,478,611.9195997,2023-12-10
+366,Zone en chantier,534,579.525,2023-12-17
+367,Zone en chantier,412,547.6211197,2023-12-24
+368,Zone en chantier,403,516.2708352,2023-12-31
+369,Zone en chantier,201,485.5336557,2024-01-07
+370,Zone en chantier,195,455.4657232,2024-01-14
+371,Zone en chantier,187,426.1198125,2024-01-21
+372,Zone en chantier,176,397.5453312,2024-01-28
+373,Zone en chantier,154,369.7883197,2024-02-04
+374,Zone en chantier,148,342.8914512,2024-02-11
+375,Zone en chantier,225,316.8940317,2024-02-18
+376,Zone en chantier,270,291.832,2024-02-25
+377,Zone en chantier,213,267.7379277,2024-03-03
+378,Zone en chantier,195,244.6410192,2024-03-10
+379,Zone en chantier,184,222.5671117,2024-03-17
+380,Zone en chantier,67,201.5386752,2024-03-24
+381,Zone en chantier,68,181.5748125,2024-03-31
+382,Zone en chantier,69,162.6912592,2024-04-07
+383,Zone en chantier,53,144.9003837,2024-04-14
+384,Zone en chantier,54,128.2111872,2024-04-21
+385,Zone en chantier,52,112.6293037,2024-04-28
+386,Zone en chantier,48,98.157,2024-05-05
+387,Zone en chantier,40,84.7931757,2024-05-12
+388,Zone en chantier,39,72.5333632,2024-05-19
+389,Zone en chantier,46,61.3697277,2024-05-26
+390,Zone en chantier,53,51.2910672,2024-06-02
+391,Zone en chantier,57,42.2828125,2024-06-09
+392,Zone en chantier,41,34.3270272,2024-06-16
+393,Zone en chantier,36,27.4024077,2024-06-23
+394,Zone en chantier,22,21.4842832,2024-06-30
+395,Zone en chantier,18,16.5446157,2024-07-07
+396,Zone en chantier,10,12.552,2024-07-14
+397,Zone en chantier,0,9.4716637,2024-07-21
+398,Zone en chantier,0,7.2654672,2024-07-28
+399,Zone en chantier,0,5.8919037,2024-08-04
+400,Zone en chantier,0,5.3060992,2024-08-11
+401,Zone en chantier,0,5.4598125,2024-08-18
+402,Zone en chantier,0,6.3014352,2024-08-25
+403,Zone en chantier,0,7.7759917,2024-09-01
+404,Zone en chantier,0,9.8251392,2024-09-08
+405,Zone en chantier,0,12.3871677,2024-09-15
+406,Zone en chantier,10,15.397,2024-09-22
+407,Zone en chantier,16,18.7861917,2024-09-29
+408,Zone en chantier,5,22.4829312,2024-10-06
+409,Zone en chantier,25,26.4120397,2024-10-13
+410,Zone en chantier,63,30.4949712,2024-10-20
+411,Zone en chantier,72,34.6498125,2024-10-27
+412,Zone en chantier,43,38.7912832,2024-11-03
+413,Zone en chantier,36,42.8307357,2024-11-10
+414,Zone en chantier,5,46.6761552,2024-11-17
+415,Zone en chantier,0,50.2321597,2024-11-24
+416,Zone en chantier,0,53.4,2024-12-01
+417,Zone en chantier,0,56.0775597,2024-12-08
+418,Zone en chantier,0,58.1593552,2024-12-15
+419,Zone en chantier,0,59.5365357,2024-12-22
+420,Zone en chantier,0,60.0968832,2024-12-29
+421,Demenagements,318,739.4,2023-01-01
+422,Demenagements,335,707.1763184,2023-01-08
+423,Demenagements,315,675.1320222,2023-01-15
+424,Demenagements,330,645.1340906,2023-01-22
+425,Demenagements,326,618.67546,2023-01-29
+426,Demenagements,260,596.9111227,2023-02-05
+427,Demenagements,258,580.6923571,2023-02-12
+428,Demenagements,233,570.5991337,2023-02-19
+429,Demenagements,263,566.9707359,2023-02-26
+430,Demenagements,336,569.9346407,2023-03-05
+431,Demenagements,387,579.4337,2023-03-12
+432,Demenagements,500,595.2516649,2023-03-19
+433,Demenagements,337,617.037095,2023-03-26
+434,Demenagements,242,644.3256958,2023-04-02
+435,Demenagements,230,676.5611251,2023-04-09
+436,Demenagements,211,713.1143117,2023-04-16
+437,Demenagements,290,753.3013276,2023-04-23
+438,Demenagements,277,796.399857,2023-04-30
+439,Demenagements,685,841.6643028,2023-05-07
+440,Demenagements,477,888.3395749,2023-05-14
+441,Demenagements,529,935.6736,2023-05-21
+442,Demenagements,459,982.9285971,2023-05-28
+443,Demenagements,923,1029.39116,2023-06-04
+444,Demenagements,839,1074.381188,2023-06-11
+445,Demenagements,917,1117.259711,2023-06-18
+446,Demenagements,937,1157.435645,2023-06-25
+447,Demenagements,1151,1194.371523,2023-07-02
+448,Demenagements,978,1227.58825,2023-07-09
+449,Demenagements,978,1256.668911,2023-07-16
+450,Demenagements,992,1281.261684,2023-07-23
+451,Demenagements,1121,1301.0819,2023-07-30
+452,Demenagements,932,1315.913285,2023-08-06
+453,Demenagements,957,1325.608436,2023-08-13
+454,Demenagements,1021,1330.088565,2023-08-20
+455,Demenagements,930,1329.342557,2023-08-27
+456,Demenagements,923,1323.425384,2023-09-03
+457,Demenagements,980,1312.455914,2023-09-10
+458,Demenagements,916,1296.614167,2023-09-17
+459,Demenagements,966,1276.138044,2023-09-24
+460,Demenagements,726,1251.319587,2023-10-01
+461,Demenagements,897,1222.5008,2023-10-08
+462,Demenagements,799,1190.069086,2023-10-15
+463,Demenagements,707,1154.452327,2023-10-22
+464,Demenagements,867,1116.113661,2023-10-29
+465,Demenagements,340,1075.545995,2023-11-05
+466,Demenagements,311,1033.266291,2023-11-12
+467,Demenagements,396,989.8096802,2023-11-19
+468,Demenagements,337,945.7234253,2023-11-26
+469,Demenagements,617,901.5608011,2023-12-03
+470,Demenagements,622,857.8749118,2023-12-10
+471,Demenagements,609,815.2125,2023-12-17
+472,Demenagements,665,774.107786,2023-12-24
+473,Demenagements,679,735.0763793,2023-12-31
+474,Demenagements,349,698.6093047,2024-01-07
+475,Demenagements,343,665.1671864,2024-01-14
+476,Demenagements,330,635.1746305,2024-01-21
+477,Demenagements,312,609.0148487,2024-01-28
+478,Demenagements,260,587.0245667,2024-02-04
+479,Demenagements,215,569.4892571,2024-02-11
+480,Demenagements,257,556.6387412,2024-02-18
+481,Demenagements,285,548.6432,2024-02-25
+482,Demenagements,375,545.6096387,2024-03-03
+483,Demenagements,446,547.5788447,2024-03-10
+484,Demenagements,305,554.5228825,2024-03-17
+485,Demenagements,422,566.343168,2024-03-24
+486,Demenagements,431,582.8691633,2024-03-31
+487,Demenagements,214,603.8577347,2024-04-07
+488,Demenagements,234,628.9932168,2024-04-14
+489,Demenagements,329,657.8882234,2024-04-21
+490,Demenagements,278,690.0852486,2024-04-28
+491,Demenagements,611,725.0591,2024-05-05
+492,Demenagements,428,762.2202058,2024-05-12
+493,Demenagements,643,800.9188382,2024-05-19
+494,Demenagements,533,840.4502959,2024-05-26
+495,Demenagements,860,880.0610865,2024-06-02
+496,Demenagements,878,918.9561523,2024-06-09
+497,Demenagements,991,956.3071814,2024-06-16
+498,Demenagements,816,991.2620454,2024-06-23
+499,Demenagements,821,1022.955407,2024-06-30
+500,Demenagements,1115,1050.52054,2024-07-07
+501,Demenagements,1192,1073.1024,2024-07-14
+502,Demenagements,1150,1089.871997,2024-07-21
+503,Demenagements,1073,1100.042099,2024-07-28
+504,Demenagements,1001,1102.884323,2024-08-04
+505,Demenagements,950,1097.747641,2024-08-11
+506,Demenagements,904,1084.07836,2024-08-18
+507,Demenagements,1100,1061.4416,2024-08-25
+508,Demenagements,957,1029.544326,2024-09-01
+509,Demenagements,946,988.2599715,2024-09-08
+510,Demenagements,954,937.6546924,2024-09-15
+511,Demenagements,909,878.0153,2024-09-22
+512,Demenagements,926,809.8789097,2024-09-29
+513,Demenagements,777,734.0643505,2024-10-06
+514,Demenagements,733,651.7053764,2024-10-13
+515,Demenagements,830,564.2857229,2024-10-20
+516,Demenagements,780,473.6760492,2024-10-27
+517,Demenagements,386,382.1728098,2024-11-03
+518,Demenagements,316,292.5390969,2024-11-10
+519,Demenagements,323,208.0474958,2024-11-17
+520,Demenagements,346,132.5249962,2024-11-24
+521,Demenagements,634,70.4,2024-12-01
+522,Demenagements,658,26.75147,2024-12-08
+523,Demenagements,635,7.360259568,2024-12-15
+524,Demenagements,680,18.76266689,2024-12-22
+525,Demenagements,676,68.30625528,2024-12-29
+526,Abords autoroute,120,118.4,2023-01-01
+527,Abords autoroute,110,116.8835003,2023-01-08
+528,Abords autoroute,108,115.4519796,2023-01-15
+529,Abords autoroute,110,114.1024438,2023-01-22
+530,Abords autoroute,103,112.8319496,2023-01-29
+531,Abords autoroute,94,111.637605,2023-02-05
+532,Abords autoroute,99,110.5165691,2023-02-12
+533,Abords autoroute,92,109.4660519,2023-02-19
+534,Abords autoroute,109,108.4833147,2023-02-26
+535,Abords autoroute,109,107.5656696,2023-03-05
+536,Abords autoroute,97,106.71048,2023-03-12
+537,Abords autoroute,102,105.9151602,2023-03-19
+538,Abords autoroute,103,105.1771758,2023-03-26
+539,Abords autoroute,101,104.4940432,2023-04-02
+540,Abords autoroute,107,103.86333,2023-04-09
+541,Abords autoroute,90,103.282655,2023-04-16
+542,Abords autoroute,110,102.7496878,2023-04-23
+543,Abords autoroute,99,102.2621493,2023-04-30
+544,Abords autoroute,96,101.8178113,2023-05-07
+545,Abords autoroute,95,101.4144969,2023-05-14
+546,Abords autoroute,101,101.05008,2023-05-21
+547,Abords autoroute,93,100.7224858,2023-05-28
+548,Abords autoroute,100,100.4296904,2023-06-04
+549,Abords autoroute,95,100.169721,2023-06-11
+550,Abords autoroute,95,99.94065613,2023-06-18
+551,Abords autoroute,108,99.740625,2023-06-25
+552,Abords autoroute,92,99.56780813,2023-07-02
+553,Abords autoroute,93,99.42043705,2023-07-09
+554,Abords autoroute,101,99.29679437,2023-07-16
+555,Abords autoroute,93,99.19521377,2023-07-23
+556,Abords autoroute,106,99.11408,2023-07-30
+557,Abords autoroute,99,99.05182889,2023-08-06
+558,Abords autoroute,106,99.00694733,2023-08-13
+559,Abords autoroute,95,98.97797329,2023-08-20
+560,Abords autoroute,102,98.96349581,2023-08-27
+561,Abords autoroute,105,98.962155,2023-09-03
+562,Abords autoroute,95,98.97264205,2023-09-10
+563,Abords autoroute,92,98.99369921,2023-09-17
+564,Abords autoroute,99,99.02411981,2023-09-24
+565,Abords autoroute,96,99.06274825,2023-10-01
+566,Abords autoroute,110,99.10848,2023-10-08
+567,Abords autoroute,99,99.16026161,2023-10-15
+568,Abords autoroute,101,99.21709069,2023-10-22
+569,Abords autoroute,106,99.27801593,2023-10-29
+570,Abords autoroute,90,99.34213709,2023-11-05
+571,Abords autoroute,93,99.408605,2023-11-12
+572,Abords autoroute,90,99.47662157,2023-11-19
+573,Abords autoroute,110,99.54543977,2023-11-26
+574,Abords autoroute,103,99.61436365,2023-12-03
+575,Abords autoroute,106,99.68274833,2023-12-10
+576,Abords autoroute,103,99.75,2023-12-17
+577,Abords autoroute,92,99.81557593,2023-12-24
+578,Abords autoroute,95,99.87898445,2023-12-31
+579,Abords autoroute,107,99.93978497,2024-01-07
+580,Abords autoroute,105,99.99758797,2024-01-14
+581,Abords autoroute,99,100.052055,2024-01-21
+582,Abords autoroute,103,100.1028987,2024-01-28
+583,Abords autoroute,105,100.1498827,2024-02-04
+584,Abords autoroute,107,100.1928219,2024-02-11
+585,Abords autoroute,109,100.231582,2024-02-18
+586,Abords autoroute,91,100.26608,2024-02-25
+587,Abords autoroute,99,100.2962838,2024-03-03
+588,Abords autoroute,96,100.3222126,2024-03-10
+589,Abords autoroute,98,100.3439364,2024-03-17
+590,Abords autoroute,100,100.3615764,2024-03-24
+591,Abords autoroute,107,100.375305,2024-03-31
+592,Abords autoroute,102,100.3853454,2024-04-07
+593,Abords autoroute,104,100.3919721,2024-04-14
+594,Abords autoroute,103,100.3955105,2024-04-21
+595,Abords autoroute,97,100.3963373,2024-04-28
+596,Abords autoroute,92,100.39488,2024-05-05
+597,Abords autoroute,98,100.3916174,2024-05-12
+598,Abords autoroute,103,100.3870792,2024-05-19
+599,Abords autoroute,109,100.3818462,2024-05-26
+600,Abords autoroute,99,100.3765505,2024-06-02
+601,Abords autoroute,99,100.371875,2024-06-09
+602,Abords autoroute,101,100.3685537,2024-06-16
+603,Abords autoroute,97,100.3673718,2024-06-23
+604,Abords autoroute,94,100.3691656,2024-06-30
+605,Abords autoroute,105,100.3748222,2024-07-07
+606,Abords autoroute,92,100.38528,2024-07-14
+607,Abords autoroute,108,100.4015285,2024-07-21
+608,Abords autoroute,101,100.4246081,2024-07-28
+609,Abords autoroute,100,100.4556105,2024-08-04
+610,Abords autoroute,95,100.4956782,2024-08-11
+611,Abords autoroute,93,100.546005,2024-08-18
+612,Abords autoroute,100,100.6078356,2024-08-25
+613,Abords autoroute,108,100.682466,2024-09-01
+614,Abords autoroute,90,100.771243,2024-09-08
+615,Abords autoroute,102,100.8755646,2024-09-15
+616,Abords autoroute,98,100.99688,2024-09-22
+617,Abords autoroute,110,101.1366892,2024-09-29
+618,Abords autoroute,91,101.2965435,2024-10-06
+619,Abords autoroute,108,101.4780451,2024-10-13
+620,Abords autoroute,97,101.6828475,2024-10-20
+621,Abords autoroute,99,101.912655,2024-10-27
+622,Abords autoroute,107,102.1692232,2024-11-03
+623,Abords autoroute,97,102.4543586,2024-11-10
+624,Abords autoroute,99,102.7699188,2024-11-17
+625,Abords autoroute,91,103.1178127,2024-11-24
+626,Abords autoroute,108,103.5,2024-12-01
+627,Abords autoroute,95,103.9184915,2024-12-08
+628,Abords autoroute,108,104.3753492,2024-12-15
+629,Abords autoroute,95,104.8726862,2024-12-22
+630,Abords autoroute,92,105.4126664,2024-12-29
+631,Quartier regulierement sujet aux cleanwalk,1400,1430,2023-01-01
+632,Quartier regulierement sujet aux cleanwalk,1300,1384.844518,2023-01-08
+633,Quartier regulierement sujet aux cleanwalk,1300,1342.903981,2023-01-15
+634,Quartier regulierement sujet aux cleanwalk,1205,1304.058693,2023-01-22
+635,Quartier regulierement sujet aux cleanwalk,1304,1268.178952,2023-01-29
+636,Quartier regulierement sujet aux cleanwalk,1265,1235.126709,2023-02-05
+637,Quartier regulierement sujet aux cleanwalk,1200,1204.757138,2023-02-12
+638,Quartier regulierement sujet aux cleanwalk,1200,1176.920107,2023-02-19
+639,Quartier regulierement sujet aux cleanwalk,1145,1151.461555,2023-02-26
+640,Quartier regulierement sujet aux cleanwalk,1102,1128.224785,2023-03-05
+641,Quartier regulierement sujet aux cleanwalk,1045,1107.051661,2023-03-12
+642,Quartier regulierement sujet aux cleanwalk,1030,1087.783722,2023-03-19
+643,Quartier regulierement sujet aux cleanwalk,1022,1070.263216,2023-03-26
+644,Quartier regulierement sujet aux cleanwalk,1020,1054.334044,2023-04-02
+645,Quartier regulierement sujet aux cleanwalk,1012,1039.842635,2023-04-09
+646,Quartier regulierement sujet aux cleanwalk,1000,1026.63874,2023-04-16
+647,Quartier regulierement sujet aux cleanwalk,990,1014.576146,2023-04-23
+648,Quartier regulierement sujet aux cleanwalk,990,1003.513327,2023-04-30
+649,Quartier regulierement sujet aux cleanwalk,970,993.3140213,2023-05-07
+650,Quartier regulierement sujet aux cleanwalk,960,983.8477392,2023-05-14
+651,Quartier regulierement sujet aux cleanwalk,952,974.990208,2023-05-21
+652,Quartier regulierement sujet aux cleanwalk,943,966.6237539,2023-05-28
+653,Quartier regulierement sujet aux cleanwalk,930,958.6376223,2023-06-04
+654,Quartier regulierement sujet aux cleanwalk,925,950.9282401,2023-06-11
+655,Quartier regulierement sujet aux cleanwalk,915,943.3994223,2023-06-18
+656,Quartier regulierement sujet aux cleanwalk,910,935.9625244,2023-06-25
+657,Quartier regulierement sujet aux cleanwalk,945,928.5365436,2023-07-02
+658,Quartier regulierement sujet aux cleanwalk,975,921.0481705,2023-07-09
+659,Quartier regulierement sujet aux cleanwalk,980,913.4317947,2023-07-16
+660,Quartier regulierement sujet aux cleanwalk,990,905.6294648,2023-07-23
+661,Quartier regulierement sujet aux cleanwalk,987,897.590807,2023-07-30
+662,Quartier regulierement sujet aux cleanwalk,976,889.2729033,2023-08-06
+663,Quartier regulierement sujet aux cleanwalk,967,880.6401321,2023-08-13
+664,Quartier regulierement sujet aux cleanwalk,950,871.6639737,2023-08-20
+665,Quartier regulierement sujet aux cleanwalk,940,862.322782,2023-08-27
+666,Quartier regulierement sujet aux cleanwalk,860,852.6015267,2023-09-03
+667,Quartier regulierement sujet aux cleanwalk,800,842.4915056,2023-09-10
+668,Quartier regulierement sujet aux cleanwalk,750,831.9900318,2023-09-17
+669,Quartier regulierement sujet aux cleanwalk,700,821.1000962,2023-09-24
+670,Quartier regulierement sujet aux cleanwalk,687,809.8300096,2023-10-01
+671,Quartier regulierement sujet aux cleanwalk,680,798.193024,2023-10-08
+672,Quartier regulierement sujet aux cleanwalk,676,786.2069382,2023-10-15
+673,Quartier regulierement sujet aux cleanwalk,657,773.8936879,2023-10-22
+674,Quartier regulierement sujet aux cleanwalk,650,761.2789243,2023-10-29
+675,Quartier regulierement sujet aux cleanwalk,644,748.3915812,2023-11-05
+676,Quartier regulierement sujet aux cleanwalk,643,735.263436,2023-11-12
+677,Quartier regulierement sujet aux cleanwalk,636,721.9286641,2023-11-19
+678,Quartier regulierement sujet aux cleanwalk,630,708.4233903,2023-11-26
+679,Quartier regulierement sujet aux cleanwalk,620,694.7852397,2023-12-03
+680,Quartier regulierement sujet aux cleanwalk,670,681.0528895,2023-12-10
+681,Quartier regulierement sujet aux cleanwalk,700,667.265625,2023-12-17
+682,Quartier regulierement sujet aux cleanwalk,750,653.4629012,2023-12-24
+683,Quartier regulierement sujet aux cleanwalk,760,639.683913,2023-12-31
+684,Quartier regulierement sujet aux cleanwalk,750,625.9671758,2024-01-07
+685,Quartier regulierement sujet aux cleanwalk,740,612.3501194,2024-01-14
+686,Quartier regulierement sujet aux cleanwalk,700,598.8686963,2024-01-21
+687,Quartier regulierement sujet aux cleanwalk,650,585.5570086,2024-01-28
+688,Quartier regulierement sujet aux cleanwalk,600,572.4469535,2024-02-04
+689,Quartier regulierement sujet aux cleanwalk,580,559.5678922,2024-02-11
+690,Quartier regulierement sujet aux cleanwalk,560,546.9463421,2024-02-18
+691,Quartier regulierement sujet aux cleanwalk,540,534.605696,2024-02-25
+692,Quartier regulierement sujet aux cleanwalk,513,522.565971,2024-03-03
+693,Quartier regulierement sujet aux cleanwalk,512,510.8435875,2024-03-10
+694,Quartier regulierement sujet aux cleanwalk,509,499.451183,2024-03-17
+695,Quartier regulierement sujet aux cleanwalk,507,488.3974606,2024-03-24
+696,Quartier regulierement sujet aux cleanwalk,434,477.6870769,2024-03-31
+697,Quartier regulierement sujet aux cleanwalk,412,467.3205693,2024-04-07
+698,Quartier regulierement sujet aux cleanwalk,410,457.2943272,2024-04-14
+699,Quartier regulierement sujet aux cleanwalk,399,447.6006069,2024-04-21
+700,Quartier regulierement sujet aux cleanwalk,389,438.2275955,2024-04-28
+701,Quartier regulierement sujet aux cleanwalk,385,429.159523,2024-05-05
+702,Quartier regulierement sujet aux cleanwalk,374,420.3768275,2024-05-12
+703,Quartier regulierement sujet aux cleanwalk,368,411.8563739,2024-05-19
+704,Quartier regulierement sujet aux cleanwalk,358,403.5717298,2024-05-26
+705,Quartier regulierement sujet aux cleanwalk,352,395.4934999,2024-06-02
+706,Quartier regulierement sujet aux cleanwalk,345,387.5897217,2024-06-09
+707,Quartier regulierement sujet aux cleanwalk,337,379.8263244,2024-06-16
+708,Quartier regulierement sujet aux cleanwalk,336,372.1676544,2024-06-23
+709,Quartier regulierement sujet aux cleanwalk,311,364.5770678,2024-06-30
+710,Quartier regulierement sujet aux cleanwalk,300,357.017594,2024-07-07
+711,Quartier regulierement sujet aux cleanwalk,270,349.452672,2024-07-14
+712,Quartier regulierement sujet aux cleanwalk,252,341.846961,2024-07-21
+713,Quartier regulierement sujet aux cleanwalk,300,334.167229,2024-07-28
+714,Quartier regulierement sujet aux cleanwalk,350,326.3833207,2024-08-04
+715,Quartier regulierement sujet aux cleanwalk,390,318.4692072,2024-08-11
+716,Quartier regulierement sujet aux cleanwalk,408,310.4041199,2024-08-18
+717,Quartier regulierement sujet aux cleanwalk,390,302.173771,2024-08-25
+718,Quartier regulierement sujet aux cleanwalk,373,293.7716624,2024-09-01
+719,Quartier regulierement sujet aux cleanwalk,358,285.2004865,2024-09-08
+720,Quartier regulierement sujet aux cleanwalk,337,276.473619,2024-09-15
+721,Quartier regulierement sujet aux cleanwalk,276,267.616709,2024-09-22
+722,Quartier regulierement sujet aux cleanwalk,253,258.6693655,2024-09-29
+723,Quartier regulierement sujet aux cleanwalk,198,249.6869454,2024-10-06
+724,Quartier regulierement sujet aux cleanwalk,173,240.7424432,2024-10-13
+725,Quartier regulierement sujet aux cleanwalk,169,231.928486,2024-10-20
+726,Quartier regulierement sujet aux cleanwalk,150,223.3594358,2024-10-27
+727,Quartier regulierement sujet aux cleanwalk,146,215.1736004,2024-11-03
+728,Quartier regulierement sujet aux cleanwalk,143,207.5355575,2024-11-10
+729,Quartier regulierement sujet aux cleanwalk,142,200.6385912,2024-11-17
+730,Quartier regulierement sujet aux cleanwalk,138,194.7072463,2024-11-24
+731,Quartier regulierement sujet aux cleanwalk,134,190,2024-12-01
+732,Quartier regulierement sujet aux cleanwalk,150,186.8120559,2024-12-08
+733,Quartier regulierement sujet aux cleanwalk,175,185.4782599,2024-12-15
+734,Quartier regulierement sujet aux cleanwalk,190,186.3761425,2024-12-22
+735,Quartier regulierement sujet aux cleanwalk,202,189.9290888,2024-12-29
+736,Espaces verts,0,554.404572,2023-01-01
+737,Espaces verts,0,318.0442345,2023-01-08
+738,Espaces verts,0,166.834408,2023-01-15
+739,Espaces verts,30,86.69277126,2023-01-22
+740,Espaces verts,40,64.94481773,2023-01-29
+741,Espaces verts,62,90.23493684,2023-02-05
+742,Espaces verts,34,152.4408237,2023-02-12
+743,Espaces verts,29,242.5911593,2023-02-19
+744,Espaces verts,31,352.7865047,2023-02-26
+745,Espaces verts,48,476.1233515,2023-03-05
+746,Espaces verts,53,606.621272,2023-03-12
+747,Espaces verts,69,739.1531115,2023-03-19
+748,Espaces verts,1731,869.3781663,2023-03-26
+749,Espaces verts,1334,993.6782891,2023-04-02
+750,Espaces verts,1276,1109.096867,2023-04-09
+751,Espaces verts,1777,1213.28061,2023-04-16
+752,Espaces verts,1309,1304.424103,2023-04-23
+753,Espaces verts,999,1381.217049,2023-04-30
+754,Espaces verts,1597,1442.794161,2023-05-07
+755,Espaces verts,1864,1488.687639,2023-05-14
+756,Espaces verts,444,1518.782172,2023-05-21
+757,Espaces verts,894,1533.272415,2023-05-28
+758,Espaces verts,1296,1532.622877,2023-06-04
+759,Espaces verts,557,1517.530171,2023-06-11
+760,Espaces verts,812,1488.887559,2023-06-18
+761,Espaces verts,2000,1447.75174,2023-06-25
+762,Espaces verts,1663,1395.311829,2023-07-02
+763,Espaces verts,1178,1332.860461,2023-07-09
+764,Espaces verts,1103,1261.766963,2023-07-16
+765,Espaces verts,852,1183.452551,2023-07-23
+766,Espaces verts,742,1099.367472,2023-07-30
+767,Espaces verts,682,1010.970056,2023-08-06
+768,Espaces verts,519,919.7076073,2023-08-13
+769,Espaces verts,437,826.9990785,2023-08-20
+770,Espaces verts,284,734.2194814,2023-08-27
+771,Espaces verts,117,642.6859634,2023-09-03
+772,Espaces verts,109,553.645501,2023-09-10
+773,Espaces verts,98,468.2641507,2023-09-17
+774,Espaces verts,32,387.6178011,2023-09-24
+775,Espaces verts,45,312.6843671,2023-10-01
+776,Espaces verts,67,244.337372,2023-10-08
+777,Espaces verts,89,183.3408579,2023-10-15
+778,Espaces verts,12,130.3455685,2023-10-22
+779,Espaces verts,15,85.8863474,2023-10-29
+780,Espaces verts,73,50.38069347,2023-11-05
+781,Espaces verts,17,24.12841809,2023-11-12
+782,Espaces verts,0,7.312345503,2023-11-19
+783,Espaces verts,21,2.146222698,2023-11-26
+784,Espaces verts,43,2.146222698,2023-12-03
+785,Espaces verts,26,13.59666078,2023-12-10
+786,Espaces verts,1,34.092072,2023-12-17
+787,Espaces verts,0,63.27338751,2023-12-24
+788,Espaces verts,0,100.6874758,2023-12-31
+789,Espaces verts,14,145.7935507,2024-01-07
+790,Espaces verts,14,197.9701662,2024-01-14
+791,Espaces verts,14,256.5227415,2024-01-21
+792,Espaces verts,44,320.6915581,2024-01-28
+793,Espaces verts,54,389.6601732,2024-02-04
+794,Espaces verts,76,462.5641911,2024-02-11
+795,Espaces verts,48,538.5003366,2024-02-18
+796,Espaces verts,43,616.535772,2024-02-25
+797,Espaces verts,45,695.717602,2024-03-03
+798,Espaces verts,62,775.0825083,2024-03-10
+799,Espaces verts,67,853.6664571,2024-03-17
+800,Espaces verts,83,930.514423,2024-03-24
+801,Espaces verts,1745,1004.690071,2024-03-31
+802,Espaces verts,1348,1075.285342,2024-04-07
+803,Espaces verts,1290,1141.429879,2024-04-14
+804,Espaces verts,1791,1202.300245,2024-04-21
+805,Espaces verts,1323,1257.128871,2024-04-28
+806,Espaces verts,1013,1305.212672,2024-05-05
+807,Espaces verts,1611,1345.921286,2024-05-12
+808,Espaces verts,1878,1378.704869,2024-05-19
+809,Espaces verts,458,1403.101391,2024-05-26
+810,Espaces verts,908,1418.743379,2024-06-02
+811,Espaces verts,1310,1425.364045,2024-06-09
+812,Espaces verts,571,1422.802748,2024-06-16
+813,Espaces verts,826,1411.00973,2024-06-23
+814,Espaces verts,2014,1390.050061,2024-06-30
+815,Espaces verts,1677,1360.106753,2024-07-07
+816,Espaces verts,1192,1321.482972,2024-07-14
+817,Espaces verts,1117,1274.603293,2024-07-21
+818,Espaces verts,866,1220.013946,2024-07-28
+819,Espaces verts,756,1158.381994,2024-08-04
+820,Espaces verts,696,1090.493381,2024-08-11
+821,Espaces verts,533,1017.249799,2024-08-18
+822,Espaces verts,451,939.6643163,2024-08-25
+823,Espaces verts,298,858.8557031,2024-09-01
+824,Espaces verts,131,776.0414087,2024-09-08
+825,Espaces verts,123,692.5291234,2024-09-15
+826,Espaces verts,112,609.706872,2024-09-22
+827,Espaces verts,46,529.0315821,2024-09-29
+828,Espaces verts,59,452.0160693,2024-10-06
+829,Espaces verts,81,380.2143819,2024-10-13
+830,Espaces verts,103,315.2054487,2024-10-20
+831,Espaces verts,26,258.5749728,2024-10-27
+832,Espaces verts,29,211.8955132,2024-11-03
+833,Espaces verts,87,176.7046988,2024-11-10
+834,Espaces verts,31,154.4815161,2024-11-17
+835,Espaces verts,14,146.6206145,2024-11-24
+836,Espaces verts,35,154.404572,2024-12-01
+837,Espaces verts,57,178.9740633,2024-12-08
+838,Espaces verts,40,221.2958748,2024-12-15
+839,Espaces verts,15,282.1287077,2024-12-22
+840,Espaces verts,14,361.9867132,2024-12-29
+841,Zone festival,200,307.5,2023-01-01
+842,Zone festival,210,245.9770527,2023-01-08
+843,Zone festival,180,194.2404582,2023-01-15
+844,Zone festival,170,151.2813785,2023-01-22
+845,Zone festival,80,116.1590999,2023-01-29
+846,Zone festival,17,87.998245,2023-02-05
+847,Zone festival,28,65.98603953,2023-02-12
+848,Zone festival,26,49.36963107,2023-02-19
+849,Zone festival,21,37.45346133,2023-02-26
+850,Zone festival,24,29.5966914,2023-03-05
+851,Zone festival,71,25.21068,2023-03-12
+852,Zone festival,67,23.75651478,2023-03-19
+853,Zone festival,62,24.74259674,2023-03-26
+854,Zone festival,53,27.7222776,2023-04-02
+855,Zone festival,25,32.29155029,2023-04-09
+856,Zone festival,13,38.0867925,2023-04-16
+857,Zone festival,67,44.78256319,2023-04-23
+858,Zone festival,20,52.08945227,2023-04-30
+859,Zone festival,58,59.75198322,2023-05-07
+860,Zone festival,25,67.54656884,2023-05-14
+861,Zone festival,10,75.27952,2023-05-21
+862,Zone festival,21,82.78510747,2023-05-28
+863,Zone festival,100,89.92367677,2023-06-04
+864,Zone festival,110,96.57981611,2023-06-11
+865,Zone festival,120,102.6605774,2023-06-18
+866,Zone festival,160,108.09375,2023-06-25
+867,Zone festival,170,112.8261883,2023-07-02
+868,Zone festival,200,116.8221913,2023-07-09
+869,Zone festival,160,120.0619362,2023-07-16
+870,Zone festival,170,122.5399641,2023-07-23
+871,Zone festival,180,124.26372,2023-07-30
+872,Zone festival,190,125.2521444,2023-08-06
+873,Zone festival,120,125.534319,2023-08-13
+874,Zone festival,170,125.1481653,2023-08-20
+875,Zone festival,150,124.1391955,2023-08-27
+876,Zone festival,20,122.5593175,2023-09-03
+877,Zone festival,18,120.4656924,2023-09-10
+878,Zone festival,17,117.919645,2023-09-17
+879,Zone festival,70,114.9856273,2023-09-24
+880,Zone festival,25,111.7302356,2023-10-01
+881,Zone festival,79,108.22128,2023-10-08
+882,Zone festival,75,104.5269071,2023-10-15
+883,Zone festival,67,100.7147763,2023-10-22
+884,Zone festival,24,96.85128826,2023-10-29
+885,Zone festival,12,93.00086699,2023-11-05
+886,Zone festival,21,89.225295,2023-11-12
+887,Zone festival,26,85.58310122,2023-11-19
+888,Zone festival,102,82.12900213,2023-11-26
+889,Zone festival,130,78.91339595,2023-12-03
+890,Zone festival,140,75.9819098,2023-12-10
+891,Zone festival,150,73.375,2023-12-17
+892,Zone festival,180,71.12760535,2023-12-24
+893,Zone festival,210,69.26885348,2023-12-31
+894,Zone festival,230,67.82182029,2024-01-07
+895,Zone festival,220,66.80334237,2024-01-14
+896,Zone festival,110,66.2238825,2024-01-21
+897,Zone festival,54,66.08744824,2024-01-28
+898,Zone festival,120,66.3915635,2024-02-04
+899,Zone festival,54,67.1272932,2024-02-11
+900,Zone festival,20,68.279321,2024-02-18
+901,Zone festival,21,69.82608,2024-02-25
+902,Zone festival,23,71.73993659,2024-03-03
+903,Zone festival,24,73.98742727,2024-03-10
+904,Zone festival,71,76.52954857,2024-03-17
+905,Zone festival,67,79.32209999,2024-03-24
+906,Zone festival,62,82.31608,2024-03-31
+907,Zone festival,53,85.4581351,2024-04-07
+908,Zone festival,25,88.6910619,2024-04-14
+909,Zone festival,13,91.9543623,2024-04-21
+910,Zone festival,67,95.18485164,2024-04-28
+911,Zone festival,20,98.31732,2024-05-05
+912,Zone festival,58,101.2852465,2024-05-12
+913,Zone festival,25,104.0215665,2024-05-19
+914,Zone festival,20,106.4594923,2024-05-26
+915,Zone festival,120,108.5333862,2024-06-02
+916,Zone festival,170,110.1796875,2024-06-09
+917,Zone festival,120,111.3378914,2024-06-16
+918,Zone festival,160,111.9515821,2024-06-23
+919,Zone festival,170,111.9695184,2024-06-30
+920,Zone festival,200,111.3467721,2024-07-07
+921,Zone festival,160,110.04592,2024-07-14
+922,Zone festival,170,108.0382886,2024-07-21
+923,Zone festival,180,105.305252,2024-07-28
+924,Zone festival,190,101.8395826,2024-08-04
+925,Zone festival,200,97.64685555,2024-08-11
+926,Zone festival,170,92.746905,2024-08-18
+927,Zone festival,150,87.17533474,2024-08-25
+928,Zone festival,56,80.98508103,2024-09-01
+929,Zone festival,6,74.24802881,2024-09-08
+930,Zone festival,18,67.05668084,2024-09-15
+931,Zone festival,17,59.52588,2024-09-22
+932,Zone festival,80,51.79458455,2024-09-29
+933,Zone festival,25,44.02769647,2024-10-06
+934,Zone festival,79,36.41794283,2024-10-13
+935,Zone festival,85,29.18781029,2024-10-20
+936,Zone festival,67,22.5915325,2024-10-27
+937,Zone festival,24,16.91713072,2024-11-03
+938,Zone festival,12,12.48850736,2024-11-10
+939,Zone festival,12,9.667592619,2024-11-17
+940,Zone festival,26,8.856544196,2024-11-24
+941,Zone festival,90,10.5,2024-12-01
+942,Zone festival,17,15.08738395,2024-12-08
+943,Zone festival,100,23.15526481,2024-12-15
+944,Zone festival,120,35.28976807,2024-12-22
+945,Zone festival,180,52.12904087,2024-12-29
