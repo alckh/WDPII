@@ -3,36 +3,36 @@ import geopandas as gpd
 import plotly.express as px
 
 #Recuperation des data
-listing_df = pd.read_csv("../BDD/BDD_Paris_CSV2.csv")
-nbh_geo_df = gpd.read_file('arrondissementscopie.geojson', driver='GeoJSON')
-listing_df = listing_df[['id', 'scenario', 'volumecontinu','date']]
+df = pd.read_csv("../BDD/BDD_Paris_CSV2.csv")
+geo_df = gpd.read_file('../BDD/arrondissementscopie.geojson', driver='GeoJSON')
+df = df[['id', 'scenario', 'volumecontinu','date']]
 
 #Formatage des dates
-listing_df=listing_df.sort_values(by=['date'])
-listing_df['date']=pd.to_datetime(listing_df['date'], errors='coerce')
-listing_df['date']= listing_df['date'].dt.strftime('%Y-%m-%d')
+df=df.sort_values(by=['date'])
+df['date']=pd.to_datetime(df['date'], errors='coerce')
+df['date']= df['date'].dt.strftime('%Y-%m-%d')
 
 #Merging entre localisation et scenario
-nbh_geo_df = nbh_geo_df[['scenario', 'geometry']]
-nbh_geo_count_df = pd.merge(nbh_geo_df, listing_df, on='scenario')
-nbh_geo_count_df=nbh_geo_count_df.sort_values(by=['date']) #tri par dates
+geo_df = geo_df[['scenario', 'geometry']]
+geo_count_df = pd.merge(geo_df, df, on='scenario')
+geo_count_df=geo_count_df.sort_values(by=['date']) #tri par dates
 
 #Reset id pour les divers scénarios
-nbh_geo_count_df.loc[nbh_geo_count_df['scenario']=='Quartier insalubre', 'id']=0
-nbh_geo_count_df.loc[nbh_geo_count_df['scenario']=='Quartier regulierement sujet aux cleanwalk', 'id']=1
-nbh_geo_count_df.loc[nbh_geo_count_df['scenario']=='Abords autoroute', 'id']=2
-nbh_geo_count_df.loc[nbh_geo_count_df['scenario']=='Espaces verts', 'id']=3
-nbh_geo_count_df.loc[nbh_geo_count_df['scenario']=='Quartier ideal', 'id']=4
-nbh_geo_count_df.loc[nbh_geo_count_df['scenario']=='Zone avec discotheque', 'id']=5
-nbh_geo_count_df.loc[nbh_geo_count_df['scenario']=='Demenagements', 'id']=6
-nbh_geo_count_df.loc[nbh_geo_count_df['scenario']=='Zone festival', 'id']=7
-nbh_geo_count_df.loc[nbh_geo_count_df['scenario']=='Zone en chantier', 'id']=8
+geo_count_df.loc[geo_count_df['scenario']=='Quartier insalubre', 'id']=0
+geo_count_df.loc[geo_count_df['scenario']=='Quartier regulierement sujet aux cleanwalk', 'id']=1
+geo_count_df.loc[geo_count_df['scenario']=='Abords autoroute', 'id']=2
+geo_count_df.loc[geo_count_df['scenario']=='Espaces verts', 'id']=3
+geo_count_df.loc[geo_count_df['scenario']=='Quartier ideal', 'id']=4
+geo_count_df.loc[geo_count_df['scenario']=='Zone avec discotheque', 'id']=5
+geo_count_df.loc[geo_count_df['scenario']=='Demenagements', 'id']=6
+geo_count_df.loc[geo_count_df['scenario']=='Zone festival', 'id']=7
+geo_count_df.loc[geo_count_df['scenario']=='Zone en chantier', 'id']=8
 
 #Creation d'une carte avec un timeslider
-fig=px.choropleth_mapbox(data_frame=nbh_geo_count_df,
-                         geojson=nbh_geo_df,
-                         locations=nbh_geo_count_df['id'],
-                         color=nbh_geo_count_df['volumecontinu'].astype(float),
+fig=px.choropleth_mapbox(data_frame=geo_count_df,
+                         geojson=geo_df,
+                         locations=geo_count_df['id'],
+                         color=geo_count_df['volumecontinu'].astype(float),
                          labels={'color':'Quantité de déchets en kg'},
                          opacity=0.6,
                          center={'lat':48.866804569664794, 'lon':2.336997985839844},
@@ -40,7 +40,7 @@ fig=px.choropleth_mapbox(data_frame=nbh_geo_count_df,
                          hover_name='scenario',
                          zoom=10,
                          color_continuous_scale='ylorrd',
-                         range_color=(0,max(listing_df['volumecontinu'])),
+                         range_color=(0,max(df['volumecontinu'])),
                          animation_frame='date',
                          width=800,
                          height=600,
