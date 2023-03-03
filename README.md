@@ -26,5 +26,7 @@ Afin de discrétiser notre champ d’étude, nous nous sommes focalisés sur 9 a
 Dans un premier temps, nous avons implémenté sous Python une carte dont la couleur de la zone varie selon la quantité de déchets (en kg) en fonction du temps. 
 
 ![image](https://user-images.githubusercontent.com/120735394/222725378-45e2dbdb-a42a-49bf-9f72-82bea511dbda.png)
-Ensuite, nous avons codé notre intelligence artificielle (IA) en Python grâce à l’algorithme LSTM (Long Short Term Memory) afin de prédire les quantités de déchets à venir
+
+Ensuite, nous avons codé notre intelligence artificielle (IA) en Python grâce à l’algorithme LSTM (Long Short Term Memory) afin de prédire les quantités de déchets à venir:
+
 ![image](https://user-images.githubusercontent.com/120735394/222725419-875ed08b-916f-4f93-a652-dbaed8f5b755.png)
