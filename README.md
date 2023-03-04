@@ -3,15 +3,22 @@ Projet PPE
 Le projet « Wild Dump Prevention II » (WDPII) consiste à prédire l’apparition de déchets sauvages à l’aide d’une intelligence artificielle, selon divers paramètres tels que :
 •	Les lieux de dépôts précédemment répertoriés
 o	Près d’un cours d’eau
+
 o	Les zones de chantier, de festival et celles fréquentées par des ‘cleanwalkers’
+
 o	Les bords d’autoroute
+
 o	Les discothèques
+
 o	Les espaces verts
 
 •	Des périodes temporelles
 o	La saison des tontes
+
 o	Les vacances scolaires
+
 o	Les périodes de déménagements et de fêtes
+
 
 Afin de discrétiser notre champ d’étude, nous nous sommes focalisés sur 9 arrondissements de Paris de simuler le volume de déchets selon les scénarios dans le cas :
 •	D’un quartier dit idéal, exemplaire où le volume de dépôts est peu conséquent
