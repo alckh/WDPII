@@ -3,8 +3,8 @@ import geopandas as gpd
 import plotly.express as px
 
 #Recuperation des data
-df = pd.read_csv("../BDD/BDD_Paris_CSV2.csv")
-geo_df = gpd.read_file('../BDD/arrondissements.geojson', driver='GeoJSON')
+df = pd.read_csv("../BDD/BDD_Paris70.csv")
+geo_df = gpd.read_file('../data/arrondissements.geojson', driver='GeoJSON')
 df = df[['id', 'scenario', 'volumecontinu','date']]
 
 #Formatage des dates
