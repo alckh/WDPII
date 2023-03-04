@@ -11,21 +11,24 @@ from keras.models import Sequential
 from keras.layers import Dense, LSTM
 import math
 from sklearn.preprocessing import MinMaxScaler
-
+import csv
 
 #lecture des donnees sur excel
 df = []
-df.append(pd.read_excel("../BDD/BDD_Chantier.xlsx"))
+df.append(pd.read_excel("../BDD/BDD_Quartier_insalubre.xlsx"))
 """
-df.append(pd.read_excel("../BDD/BDD_Demenagement.xlsx"))
-df.append(pd.read_excel("../BDD/BDD_Discotheque.xlsx"))
-df.append(pd.read_excel("../BDD/BDD_EspacesVerts.xlsx"))
-df.append(pd.read_excel("../BDD/BDD_Festival.xlsx"))
-df.append(pd.read_excel("../BDD/BDD_QuartierAise.xlsx"))
-df.append(pd.read_excel("../BDD/BDD_QuartierMalFrequente.xlsx"))
-df.append(pd.read_excel("../BDD/BDD_ScenarioPositif.xlsx"))
-df.append(pd.read_excel("../BDD/BDD_Constante.xlsx"))
+df.append(pd.read_excel("../BDD/BDD_Quartier_regulierement_sujet_aux_cleanwalk.xlsx"))
+df.append(pd.read_excel("../BDD/BDD_Abords_autoroute.xlsx"))
+df.append(pd.read_excel("../BDD/BDD_Espaces_verts.xlsx"))
+df.append(pd.read_excel("../BDD/BDD_Quartier_ideal.xlsx"))
+df.append(pd.read_excel("../BDD/BDD_Zone_avec_discotheque.xlsx"))
+df.append(pd.read_excel("../BDD/BDD_Demenagements.xlsx"))
+df.append(pd.read_excel("../BDD/BDD_Zone_festival.xlsx"))
+df.append(pd.read_excel("../BDD/BDD_Zone_en_chantier.xlsx"))
 """
+
+#initialisation de la liste des volume_ia
+volume_ia=np.zeros((len(df),31))
 
 #test de l'IA sur les 9 scenarios (pour ajouter un fichier il faut continuer la liste)
 for j in range (0,len(df)):
@@ -91,8 +94,12 @@ for j in range (0,len(df)):
         
         train = df[j][:training_data_len]                       # dataframe (tableau 2D) comprenant toutes les valeurs pour le plot
         valid = df[j][training_data_len:]                       # dataframe (tableau 2D) comprenant toutes les valeurs pour le plot
-         
+        
         valid['Predictions'] = predictions
+        
+        #création de la matrice qui récupère les données des prédictions
+        for k in range(0,len(predictions)):
+            volume_ia[j][k]=predictions[k]
          
         plt.title('Model')
         plt.xlabel('Date')
@@ -107,3 +114,23 @@ for j in range (0,len(df)):
 
 #Batch size: Total number of training examples present in a single batch.
 #Epochs: One Epoch is when an ENTIRE dataset is passed forward and backward through the neural network only ONCE.
+
+#ajout des differents parametres qui seront utilisés 
+id=[0,1,2,3,4,5,6,7,8]
+scenario=['Quartier insalubre','Quartier regulierement sujet aux cleanwalk',
+          'Abords autoroute','Espaces verts','Quartier ideal','Zone avec discotheque',
+          'Demenagements','Zone festival','Zone en chantier']
+date=['2024-06-02', '2024-06-09', '2024-06-16', '2024-06-23', '2024-06-30', '2024-07-07',
+      '2024-07-14', '2024-07-21', '2024-07-28', '2024-08-04', '2024-08-11', '2024-08-18',
+      '2024-08-25', '2024-09-01', '2024-09-08', '2024-09-15', '2024-09-22', '2024-09-29',
+      '2024-10-06', '2024-10-13', '2024-10-20', '2024-10-27', '2024-11-03', '2024-11-10',
+      '2024-11-17', '2024-11-24', '2024-12-01', '2024-12-08', '2024-12-15', '2024-12-22', '2024-12-29']
+
+#Enregistrement des données de l'IA dans un CSV
+with open('../BDD/BDD_IA.csv', mode='w') as csv_file:
+    fieldnames = ['id', 'scenario', 'volume_continu_ia', 'date']
+    writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+    writer.writeheader()   
+    for j in range(0,len(df)):
+        for k in range(0,len(predictions)):
+            writer.writerow({'id': id[j], 'scenario': scenario[j], 'volume_continu_ia': volume_ia[j][k], 'date': date[k]})

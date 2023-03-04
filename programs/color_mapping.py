@@ -4,7 +4,7 @@ import plotly.express as px
 
 #Recuperation des data
 df = pd.read_csv("../BDD/BDD_Paris_CSV2.csv")
-geo_df = gpd.read_file('../BDD/arrondissementscopie.geojson', driver='GeoJSON')
+geo_df = gpd.read_file('../BDD/arrondissements.geojson', driver='GeoJSON')
 df = df[['id', 'scenario', 'volumecontinu','date']]
 
 #Formatage des dates
@@ -45,5 +45,5 @@ fig=px.choropleth_mapbox(data_frame=geo_count_df,
                          width=800,
                          height=600,
                          title='Evolution du volume de déchets sauvages au cours du temps')
-fig.write_html('mapping.htlm')
+fig.write_html('../maps/mapping.htlm')
 fig.show()
