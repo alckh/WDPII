@@ -4,7 +4,7 @@ Created on Mon Feb  6 15:35:35 2023
 
 """
 
-import numpy as np
+import numpy as np 
 import pandas as pd
 import matplotlib.pyplot as plt
 from keras.models import Sequential
@@ -16,7 +16,6 @@ import csv
 #lecture des donnees sur excel
 df = []
 df.append(pd.read_excel("../BDD/BDD_Quartier_insalubre.xlsx"))
-"""
 df.append(pd.read_excel("../BDD/BDD_Quartier_regulierement_sujet_aux_cleanwalk.xlsx"))
 df.append(pd.read_excel("../BDD/BDD_Abords_autoroute.xlsx"))
 df.append(pd.read_excel("../BDD/BDD_Espaces_verts.xlsx"))
@@ -25,7 +24,7 @@ df.append(pd.read_excel("../BDD/BDD_Zone_avec_discotheque.xlsx"))
 df.append(pd.read_excel("../BDD/BDD_Demenagements.xlsx"))
 df.append(pd.read_excel("../BDD/BDD_Zone_festival.xlsx"))
 df.append(pd.read_excel("../BDD/BDD_Zone_en_chantier.xlsx"))
-"""
+
 
 #initialisation de la liste des volume_ia
 volume_ia=np.zeros((len(df),31))
@@ -89,32 +88,69 @@ for j in range (0,len(df)):
         predictions = model.predict(x_test)
         predictions = scaler.inverse_transform(predictions)     # Obtenir la data original (non normalisee)
         
+        ###modif
+        #cas ou le volume ou la masse de dechets passerait dans le negatif
+        for k in range(0, len(predictions)):
+            if predictions[k] < 0:
+                predictions[k] = 0
+                
+        ###
+        
         rmse=np.sqrt(np.mean(((predictions- y_test)**2)))       # Mean squared error
+
         print(rmse)
         
         train = df[j][:training_data_len]                       # dataframe (tableau 2D) comprenant toutes les valeurs pour le plot
         valid = df[j][training_data_len:]                       # dataframe (tableau 2D) comprenant toutes les valeurs pour le plot
-        
+         
         valid['Predictions'] = predictions
         
         #création de la matrice qui récupère les données des prédictions
         for k in range(0,len(predictions)):
             volume_ia[j][k]=predictions[k]
-         
-        plt.title('Model')
-        plt.xlabel('Date')
-        plt.ylabel('Volume')
+        
+        
+        plt.title('Model'+str(j))                          #modif pour avoir un titre numerote
+        plt.xlabel('Date(sem)')                            #modif
+        plt.ylabel('Volume(L)')                            #modif
          
         plt.plot(train['Volume continu'])
         plt.plot(valid[['Volume continu', 'Predictions']])
-         
-        plt.legend(['Train', 'Test', 'Predictions'], loc='lower left')
-         
+        
+        
+        
+        # Entre ## est rajoute
+        
+        
+        plt.legend(['Train', 'Real data', 'Predictions'], loc='lower left')           #modif
+        
+        #bornes des valeurs train
+        maxTrain = np.max(train['Volume continu'])
+        minTrain = np.min(train['Volume continu'])
+        
+        #bornes des valeurs a predire
+        maxValidReal = np.max(valid['Volume continu'])
+        minValidReal = np.min(valid['Volume continu'])
+        
+        #bornes des valeurs predites
+        maxValidPredict = np.max(valid['Predictions'])
+        minValidPredict = np.min(valid['Predictions'])
+        
+        
+        
+        #bornes de la courbe de donnees input
+        maxTot = max([maxTrain,maxValidReal])
+        minTot = min([minTrain,minValidReal])
+        
+        #pour l'affichage de RMSE top left
+        maxTotAff = max([maxTrain,maxValidReal,maxValidPredict])
+        #affichage de RMSE puis affichage 100*RMSE/(Intervalle de valeurs a predire(valid)) puis affichage 100*RMSE/(Intervalle de valeurs csv reelles)
+        plt.text(1, maxTotAff, 'RMSE = '+str(round (rmse,2))+ '; RMSE%r = ' + str(round(100*rmse/(maxValidReal - minValidReal),2)) + '; RMSE%g = ' + str(round(100*rmse/(maxTot - minTot),2)), fontweight = 'bold', fontsize = 10, family = 'serif')
+        
         plt.show()
 
 #Batch size: Total number of training examples present in a single batch.
 #Epochs: One Epoch is when an ENTIRE dataset is passed forward and backward through the neural network only ONCE.
-
 #ajout des differents parametres qui seront utilisés 
 id=[0,1,2,3,4,5,6,7,8]
 scenario=['Quartier insalubre','Quartier regulierement sujet aux cleanwalk',
